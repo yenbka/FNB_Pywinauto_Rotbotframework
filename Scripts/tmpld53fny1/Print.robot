@@ -8,7 +8,7 @@ Kitchen_Stamp_Create_Save
     Select Item    Trà sữa đường đen
     Select Genetal Section
     Select price    Nhập giá
-    Enter price    Button45
-    Enter price    Button48
+    Enter price    2Button2
+    Enter price    000Button
     Enter
     Enter

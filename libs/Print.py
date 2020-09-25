@@ -25,11 +25,48 @@ def selectTable(table_number):
     dlg[""+table_number+""].click()
     #dlg.print_control_identifiers()
 
+# Chọn item trong thực đơn
 @keyword("Select Item")
-def selectItem():
-    item1 = dlg.child_window(title="Item 1", control_type="Text")
-    item1.click_input()
+def selectItemOnePrice(item_one_price):
+    item_one_price = dlg.child_window(title= ""+item_one_price+"", control_type="Text")
+    item_one_price.click_input()
 
+#Popup trọng lượng
+@keyword("Enter weight")
+def selectItemWeight(item_weight):
+    #dlg.print_control_identifiers()
+    dlg[""+item_weight+""].click()
+
+#Select price
+@keyword("Select price")
+def selectPrice(s_price):
+    price = dlg.child_window(title=""+s_price+"", control_type="Text")
+    price.click_input()
+    #dlg.print_control_identifiers()
+
+#Select General Section
+@keyword("Select Genetal Section")
+def selectGene():
+    gene = dlg.child_window(title="Phần chung", control_type="Text")
+    gene.click_input()
+
+#Select Mod-option
+@keyword("Select Mod-Option")
+def selectMod():
+    mod = dlg.child_window(title="Lựa chọn thêm", control_type="Text")
+    mod.click_input()
+
+#Enter price
+@keyword("Enter price")
+def enterPrice(e_price):
+    dlg[""+e_price+""].click()
+
+#Select Mod-set
+@keyword("Select Mod-set")
+def selectModSet(s_mod):
+    mod_set = dlg.child_window(title=""+s_mod+"", control_type="Text")
+    mod_set.click_input()
+    
 # Action confirm khi tạo cart mới
 @keyword("Confirm out to list cart")
 def confirmOutListCart():
@@ -50,6 +87,10 @@ def confirmSaveCart():
 def confirmUnSaveCart():
     dlg.print_control_identifiers()
 
+#Phím tắt ENTER
+@keyword("Enter")
+def enter():
+    send_keys('{ENTER}')
 
 # Cụm action button
 @keyword("Click Provisional Button")

@@ -1,0 +1,182 @@
+ Custom - ''    (L283, T59, R1083, B710)
+   | ['Custom6', '1800 6750Custom2']
+   |    | 
+   |    | Static - 'Trà sữa đường đen'    (L609, T70, R757, B91)
+   |    | ['Trà sữa đường đen2', 'Trà sữa đường đenStatic2', 'Static47']
+   |    | child_window(title="Trà sữa đường đen", control_type="Text")
+   |    | 
+   |    | Image - ''    (L1042, T69, R1064, B91)
+   |    | ['Nhập tên mặt hàng (F4)Image3', 'Image17', 'Trà sữa đường đenImage']
+   |    | 
+   |    | Static - '* Bấm phím Esc để hủy thao tác và tắt popup'    (L303, T634, R581, B650)
+   |    | ['* Bấm phím Esc để hủy thao tác và tắt popup', '* Bấm phím Esc để hủy thao tác và tắt popupStatic', 'Static48']
+   |    | child_window(title="* Bấm phím Esc để hủy thao tác và tắt popup", control_type="Text")
+   |    | 
+   |    | Static - '* Bấm phím Enter để lưu và tắt popup'    (L831, T634, R1065, B650)
+   |    | ['* Bấm phím Enter để lưu và tắt popupStatic', 'Static49', '* Bấm phím Enter để lưu và tắt popup']
+   |    | child_window(title="* Bấm phím Enter để lưu và tắt popup", control_type="Text")
+   |    | 
+   |    | Button - ''    (L283, T660, R383, B710)
+   |    | ['Button32', '* Bấm phím Esc để hủy thao tác và tắt popupButton']
+   |    |    | 
+   |    |    | Image - ''    (L323, T676, R344, B693)
+   |    |    | ['4Image', 'Image18']
+   |    | 
+   |    | Button - ''    (L382, T660, R482, B710)
+   |    | ['Button33', '5Button2']
+   |    |    | 
+   |    |    | Image - ''    (L421, T676, R442, B693)
+   |    |    | ['Image19', '5Image']
+   |    | 
+   |    | Button - 'XÁC NHẬN'    (L482, T660, R1083, B710)
+   |    | ['XÁC NHẬN', 'Button34', 'XÁC NHẬNButton', 'XÁC NHẬN0', 'XÁC NHẬN1']
+   |    | child_window(title="XÁC NHẬN", control_type="Button")
+   |    |    | 
+   |    |    | Static - 'XÁC NHẬN'    (L730, T672, R834, B697)
+   |    |    | ['XÁC NHẬN2', 'XÁC NHẬNStatic', 'Static50']
+   |    |    | child_window(title="XÁC NHẬN", control_type="Text")
+   |    | 
+   |    | TabControl - ''    (L303, T111, R1083, B624)
+   |    | ['TabControl', 'Giá bánTabControl', 'TabControlSystem.Windows.Controls.TabItem Header: Content:']
+   |    | child_window(auto_id="TabControl", control_type="Tab")
+   |    |    | 
+   |    |    | TabItem - 'System.Windows.Controls.TabItem Header: Content:'    (L305, T113, R685, B154)
+   |    |    | ['System.Windows.Controls.TabItem Header: Content:', 'TabItem', 'System.Windows.Controls.TabItem Header: Content:TabItem', 'System.Windows.Controls.TabItem Header: Content:0', 'System.Windows.Controls.TabItem Header: Content:1', 'TabItem0', 'TabItem1', 'System.Windows.Controls.TabItem Header: Content:TabItem0', 'System.Windows.Controls.TabItem Header: Content:TabItem1']
+   |    |    | child_window(title="System.Windows.Controls.TabItem Header: Content:", control_type="TabItem")
+   |    |    |    | 
+   |    |    |    | Static - 'Phần chung'    (L453, T124, R537, B143)
+   |    |    |    | ['Phần chung', 'Phần chungStatic', 'Static51']
+   |    |    |    | child_window(title="Phần chung", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Pane - ''    (L303, T154, R1083, B624)
+   |    |    |    | ['Pane2', 'Phần chungPane', 'Giá bánPane']
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'Giá bán'    (L303, T169, R360, B189)
+   |    |    |    |    | ['Giá bánStatic', 'Giá bán', 'Static52']
+   |    |    |    |    | child_window(title="Giá bán", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'Giá thường'    (L303, T199, R372, B215)
+   |    |    |    |    | ['Giá thường', 'Giá thườngStatic', 'Static53']
+   |    |    |    |    | child_window(title="Giá thường", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | Static - '20,000₫'    (L362, T238, R419, B257)
+   |    |    |    |    | ['20,000₫Static', '20,000₫', 'Static54']
+   |    |    |    |    | child_window(title="20,000₫", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'Giá 2'    (L498, T199, R529, B215)
+   |    |    |    |    | ['Giá 2', 'Giá 2Static', 'Static55']
+   |    |    |    |    | child_window(title="Giá 2", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | Edit - ''    (L498, T222, R623, B272)
+   |    |    |    |    | ['Edit2', 'Giá 2Edit']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'Nhập giá'    (L522, T238, R602, B257)
+   |    |    |    |    |    | ['Nhập giá', 'Static56', 'Nhập giáStatic']
+   |    |    |    |    |    | child_window(title="Nhập giá", auto_id="SetPrice", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | Button - 'Xoá'    (L623, T222, R673, B272)
+   |    |    |    |    | ['Button35', 'Xoá', 'XoáButton', 'Xoá0', 'Xoá1', 'XoáButton0', 'XoáButton1']
+   |    |    |    |    | child_window(title="Xoá", control_type="Button")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'Xoá'    (L636, T239, R660, B256)
+   |    |    |    |    |    | ['Xoá2', 'XoáStatic', 'Static57', 'XoáStatic0', 'XoáStatic1']
+   |    |    |    |    |    | child_window(title="Xoá", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'Size L'    (L693, T199, R728, B215)
+   |    |    |    |    | ['Static58', 'Size LStatic', 'Size L']
+   |    |    |    |    | child_window(title="Size L", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | Static - '30,000₫'    (L752, T238, R809, B257)
+   |    |    |    |    | ['30,000₫', '30,000₫Static', 'Static59']
+   |    |    |    |    | child_window(title="30,000₫", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'Số lượng'    (L303, T287, R371, B306)
+   |    |    |    |    | ['Số lượngStatic', 'Số lượng', 'Static60']
+   |    |    |    |    | child_window(title="Số lượng", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | Static - ' -  cốc'    (L371, T287, R416, B306)
+   |    |    |    |    | [' -  cốcStatic', ' -  cốc', 'Static61']
+   |    |    |    |    | child_window(title=" -  cốc", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | Image - ''    (L316, T340, R340, B343)
+   |    |    |    |    | ['Số lượngImage', 'Image20']
+   |    |    |    |    | 
+   |    |    |    |    | Edit - '1'    (L353, T317, R428, B367)
+   |    |    |    |    | ['Edit3', ' -  cốcEdit']
+   |    |    |    |    | child_window(title="1", auto_id="txtQuantity", control_type="Edit")
+   |    |    |    |    | 
+   |    |    |    |    | Image - ''    (L441, T330, R465, B354)
+   |    |    |    |    | [' -  cốcImage', 'Image21']
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'Ghi chú'    (L498, T287, R1083, B306)
+   |    |    |    |    | ['Ghi chúStatic', 'Ghi chú', 'Static62', 'Ghi chúStatic0', 'Ghi chúStatic1', 'Ghi chú0', 'Ghi chú1']
+   |    |    |    |    | child_window(title="Ghi chú", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | Edit - ''    (L498, T317, R1013, B367)
+   |    |    |    |    | ['Edit4', 'Ghi chúEdit']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'Ghi chú'    (L518, T333, R996, B352)
+   |    |    |    |    |    | ['Ghi chúStatic2', 'Ghi chú2', 'Static63']
+   |    |    |    |    |    | child_window(title="Ghi chú", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | Button - 'Xoá'    (L1013, T317, R1063, B367)
+   |    |    |    |    | ['Button36', 'Xoá3', 'XoáButton2']
+   |    |    |    |    | child_window(title="Xoá", control_type="Button")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'Xoá'    (L1025, T332, R1051, B351)
+   |    |    |    |    |    | ['Xoá4', 'XoáStatic2', 'Static64']
+   |    |    |    |    |    | child_window(title="Xoá", control_type="Text")
+   |    |    | 
+   |    |    | TabItem - 'System.Windows.Controls.TabItem Header: Content:'    (L685, T113, R1065, B154)
+   |    |    | ['System.Windows.Controls.TabItem Header: Content:2', 'TabItem2', 'System.Windows.Controls.TabItem Header: Content:TabItem2']
+   |    |    | child_window(title="System.Windows.Controls.TabItem Header: Content:", control_type="TabItem")
+   |    |    |    | 
+   |    |    |    | Static - 'Lựa chọn thêm'    (L822, T124, R928, B143)
+   |    |    |    | ['Static65', 'Lựa chọn thêm', 'Lựa chọn thêmStatic']
+   |    |    |    | child_window(title="Lựa chọn thêm", control_type="Text")
+Pane - ''    (L303, T154, R1083, B624)
+   |    |    |    | ['Lựa chọn thêmPane2', 'ToppingsPane', 'Pane2']
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'Toppings'    (L303, T179, R372, B202)
+   |    |    |    |    | ['Static53', 'Toppings', 'ToppingsStatic']
+   |    |    |    |    | child_window(title="Toppings", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'Không bắt buộc'    (L382, T177, R483, B204)
+   |    |    |    |    | ['Static54', 'Không bắt buộc', 'Không bắt buộcStatic']
+   |    |    |    |    | child_window(title="Không bắt buộc", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'Trân châu'    (L303, T212, R362, B229)
+   |    |    |    |    | ['Static55', 'Trân châu', 'Trân châuStatic']
+   |    |    |    |    | child_window(title="Trân châu", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | Static - '10,000₫'    (L362, T242, R419, B261)
+   |    |    |    |    | ['Static56', '10,000₫', '10,000₫Static']
+   |    |    |    |    | child_window(title="10,000₫", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | Image - ''    (L317, T291, R341, B293)
+   |    |    |    |    | ['Image20', 'Trân châuImage']
+   |    |    |    |    | 
+   |    |    |    |    | Static - '0'    (L354, T267, R429, B317)
+   |    |    |    |    | ['Static57', '04', '0Static3']
+   |    |    |    |    | child_window(title="0", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | Image - ''    (L441, T280, R465, B304)
+   |    |    |    |    | ['Image21', '0Image3']
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'Pudding trứng'    (L498, T212, R588, B229)
+   |    |    |    |    | ['Static58', 'Pudding trứng', 'Pudding trứngStatic']
+   |    |    |    |    | child_window(title="Pudding trứng", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | Static - '20,000₫'    (L557, T242, R614, B261)
+   |    |    |    |    | ['Static59', '20,000₫', '20,000₫Static']
+   |    |    |    |    | child_window(title="20,000₫", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | Image - ''    (L512, T291, R536, B293)
+   |    |    |    |    | ['Pudding trứngImage', 'Image22']
+   |    |    |    |    | 
+   |    |    |    |    | Static - '0'    (L549, T267, R624, B317)
+   |    |    |    |    | ['Static60', '05', '0Static4']
+   |    |    |    |    | child_window(title="0", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | Image - ''    (L636, T280, R660, B304)
+   |    |    |    |    | ['Image23', '0Image4']
