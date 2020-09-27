@@ -30,12 +30,25 @@ def selectTable(table_number):
 def selectItemOnePrice(item_one_price):
     item_one_price = dlg.child_window(title= ""+item_one_price+"", control_type="Text")
     item_one_price.click_input()
+    #dlg.print_control_identifiers()
+
+#Focus item trong order detail
+@keyword("Focus Item")
+def focusItem(focus_item):
+    foit = dlg.child_window(title= ""+focus_item+"", control_type="Text")
+    foit.click_input()
 
 #Popup trọng lượng
 @keyword("Enter weight")
 def selectItemWeight(item_weight):
     #dlg.print_control_identifiers()
     dlg[""+item_weight+""].click()
+
+#Popup số lượng
+@keyword("Enter quanity")
+def enterQuanity(quanity):
+    #dlg.print_control_identifiers()
+    dlg[""+quanity+""].click()
 
 #Select price
 @keyword("Select price")
@@ -66,6 +79,29 @@ def enterPrice(e_price):
 def selectModSet(s_mod):
     mod_set = dlg.child_window(title=""+s_mod+"", control_type="Text")
     mod_set.click_input()
+
+#Action Tăng (+)
+@keyword("Click (+) button")
+def clickIncreaseButton():
+    dlg.Button10.click()
+
+#Action Tăng (-)
+@keyword("Click (-) button")
+def clickDecreaseButton():
+    dlg.Button9.click()
+
+#Action Sửa item
+@keyword("Click Edit button")
+def clickEditButton():
+    edit = dlg.child_window(title="Sửa", control_type="Text")
+    edit.click_input()
+
+#Action Xoá item
+@keyword("Click Remove button")
+def clickRemoveButton():
+    rev = dlg.child_window(title="Xoá", control_type="Text")
+    rev.click_input()
+
     
 # Action confirm khi tạo cart mới
 @keyword("Confirm out to list cart")
@@ -81,12 +117,14 @@ def confirmStayDetailCart():
 
 @keyword("Confirm save with Exit button")
 def confirmSaveCart():
-    dlg.print_control_identifiers()
+    sav = dlg.child_window(title="Đồng ý", control_type="Text")
+    sav.click_input()
 
 @keyword("Confirm not save with Exit button")
 def confirmUnSaveCart():
-    dlg.print_control_identifiers()
-
+    nosav = dlg.child_window(title="Huỷ", control_type="Text")
+    nosav.click_input()
+    
 #Phím tắt ENTER
 @keyword("Enter")
 def enter():
@@ -95,16 +133,20 @@ def enter():
 # Cụm action button
 @keyword("Click Provisional Button")
 def clickProvisional():
-    send_keys('{VK_F2}')
+    prov = dlg.child_window(title="Tạm tính", control_type="Text")
+    prov.click_input()
     #dlg.print_control_identifiers()
 @keyword("Click Payment Button")
 def clickPayment():
-    send_keys('{VK_F1}')
+    payment = dlg.child_window(title="Thanh toán", control_type="Text")
+    payment.click_input()
 
 @keyword("Click Exit Button")
 def clickExit():
-    send_keys('{ESC}')
+    out = dlg.child_window(title="Thoát", control_type="Text")
+    out.click_input()
 
 @keyword("Click Save Button")
 def clickSave():
-    send_keys('{VK_F3}')
+    save = dlg.child_window(title="Lưu đơn", control_type="Text")
+    save.click_input()

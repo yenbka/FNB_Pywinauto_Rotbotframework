@@ -5,10 +5,8 @@ Library           ../libs/Print.py
 Kitchen_Stamp_Create_Save
     Open Application    Button
     Click CreateNewCart Button
-    Select Item    Trà sữa đường đen
-    Select Genetal Section
-    Select price    Nhập giá
-    Enter price    Button45
-    Enter price    Button48
-    Enter
-    Enter
+    Select Item    Item 1
+    Sleep    2s
+    Select table    7Button
+    Click Save Button
+    Confirm out to list cart
