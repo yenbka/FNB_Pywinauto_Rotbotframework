@@ -1,0 +1,930 @@
+Dialog - 'MainWindow'    (L0, T0, R1366, B768)
+['Dialog', 'MainWindow', 'MainWindowDialog']
+child_window(title="MainWindow", control_type="Window")
+   | 
+   | Custom - ''    (L0, T0, R1366, B768)
+   | ['Custom', 'Tất cả đơnCustom', 'Custom0', 'Custom1', 'Tất cả đơnCustom0', 'Tất cả đơnCustom1']
+   | child_window(auto_id="uc", control_type="Custom")
+   |    | 
+   |    | Custom - ''    (L0, T0, R1366, B50)
+   |    | ['Custom2', 'Tất cả đơnCustom2']
+   |    |    | 
+   |    |    | Image - ''    (L1236, T24, R1256, B27)
+   |    |    | ['Image', 'Sơ đồ bànImage', 'Image0', 'Image1', 'Sơ đồ bànImage0', 'Sơ đồ bànImage1']
+   |    |    | 
+   |    |    | Image - ''    (L1316, T15, R1336, B35)
+   |    |    | ['Image2', 'Sơ đồ bànImage2']
+   |    | 
+   |    | Image - ''    (L20, T13, R44, B37)
+   |    | ['Image3']
+   |    | 
+   |    | Static - 'Tất cả đơn'    (L94, T14, R182, B36)
+   |    | ['Static', 'Tất cả đơn', 'Tất cả đơnStatic', 'Static0', 'Static1', 'Tất cả đơn0', 'Tất cả đơn1', 'Tất cả đơnStatic0', 'Tất cả đơnStatic1']
+   |    | child_window(title="Tất cả đơn", control_type="Text")
+   |    | 
+   |    | Static - ' ('    (L182, T14, R193, B36)
+   |    | ['Static2', ' (Static', ' (']
+   |    | child_window(title=" (", control_type="Text")
+   |    | 
+   |    | Static - '10'    (L193, T14, R213, B36)
+   |    | ['10Static', 'Static3', '10', '10Static0', '10Static1', '100', '101']
+   |    | child_window(title="10", control_type="Text")
+   |    | 
+   |    | Static - ')'    (L213, T14, R219, B36)
+   |    | ['Static4', ')', ')Static']
+   |    | child_window(title=")", control_type="Text")
+   |    | 
+   |    | Static - 'Sơ đồ bàn'    (L302, T14, R388, B36)
+   |    | ['Static5', 'Sơ đồ bànStatic', 'Sơ đồ bàn']
+   |    | child_window(title="Sơ đồ bàn", control_type="Text")
+   |    | 
+   |    | Custom - ''    (L0, T715, R1366, B768)
+   |    | ['Custom3', 'Nguyễn Quang HuyCustom', 'Sơ đồ bànCustom', 'Sơ đồ bànCustom0', 'Sơ đồ bànCustom1']
+   |    |    | 
+   |    |    | Image - ''    (L9, T722, R46, B761)
+   |    |    | ['Image4', '12:43:21Image']
+   |    |    | 
+   |    |    | Static - 'Nguyễn Quang Huy'    (L59, T732, R199, B751)
+   |    |    | ['Static6', 'Nguyễn Quang Huy', 'Nguyễn Quang HuyStatic']
+   |    |    | child_window(title="Nguyễn Quang Huy", control_type="Text")
+   |    |    | 
+   |    |    | Image - ''    (L681, T723, R713, B755)
+   |    |    | ['Image5', 'Thanh toánImage', 'Nguyễn Quang HuyImage']
+   |    |    | 
+   |    |    | Static - 'Test Live PC'    (L725, T732, R808, B751)
+   |    |    | ['Static7', 'Test Live PC', 'Test Live PCStatic']
+   |    |    | child_window(title="Test Live PC", control_type="Text")
+   |    |    | 
+   |    |    | Static - '11:32 PM'    (L1280, T722, R1361, B742)
+   |    |    | ['Static8', '11:32 PM', '11:32 PMStatic']
+   |    |    | child_window(title="11:32 PM", control_type="Text")
+   |    |    | 
+   |    |    | Static - '09/10/2020'    (L1280, T742, R1361, B761)
+   |    |    | ['Static9', '09/10/2020', '09/10/2020Static']
+   |    |    | child_window(title="09/10/2020", control_type="Text")
+   |    | 
+   |    | Custom - ''    (L1116, T50, R1366, B715)
+   |    | ['Custom4', '1Custom', '1Custom0', '1Custom1']
+   |    | child_window(auto_id="rightBarAreaNTable", control_type="Custom")
+   |    |    | 
+   |    |    | Pane - ''    (L1116, T50, R1366, B640)
+   |    |    | ['Pane', '1Pane', 'Pane0', 'Pane1']
+   |    |    | child_window(auto_id="sv", control_type="Pane")
+   |    |    |    | 
+   |    |    |    | Image - ''    (L1182, T83, R1206, B107)
+   |    |    |    | ['Image6', '1Image', '1Image0', '1Image1']
+   |    |    |    | 
+   |    |    |    | Static - 'Tạo đơn mới'    (L1216, T83, R1300, B107)
+   |    |    |    | ['Static10', 'Tạo đơn mới', 'Tạo đơn mớiStatic']
+   |    |    |    | child_window(title="Tạo đơn mới", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Custom - ''    (L1126, T157, R1356, B217)
+   |    |    |    | ['Custom5', '132,000₫Custom', 'Tạo đơn mớiCustom']
+   |    |    |    | child_window(auto_id="all", control_type="Custom")
+   |    |    |    |    | 
+   |    |    |    |    | Button - ''    (L1127, T157, R1355, B217)
+   |    |    |    |    | ['132,000₫Button', 'Button', 'Button0', 'Button1']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'Tất cả đơn'    (L1191, T178, R1291, B196)
+   |    |    |    |    |    | ['Static11', 'Tất cả đơn2', 'Tất cả đơnStatic2']
+   |    |    |    |    |    | child_window(title="Tất cả đơn", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '10'    (L1342, T154, R1358, B170)
+   |    |    |    |    |    | ['10Static2', 'Static12', '102']
+   |    |    |    |    |    | child_window(title="10", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Custom - ''    (L1126, T232, R1236, B292)
+   |    |    |    | ['Custom6', 'Chờ thanh toánCustom', 'Chờ thanh toánCustom0', 'Chờ thanh toánCustom1']
+   |    |    |    | child_window(auto_id="waitToPay", control_type="Custom")
+   |    |    |    |    | 
+   |    |    |    |    | Button - ''    (L1126, T232, R1236, B292)
+   |    |    |    |    | ['Chờ thanh toánButton', 'Button2', 'Chờ thanh toánButton0', 'Chờ thanh toánButton1']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'Chờ thanh toán'    (L1131, T244, R1231, B280)
+   |    |    |    |    |    | ['Chờ thanh toánStatic', 'Static13', 'Chờ thanh toán']
+   |    |    |    |    |    | child_window(title="Chờ thanh toán", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Custom - ''    (L1246, T232, R1356, B292)
+   |    |    |    | ['Custom7', 'Chờ thanh toánCustom2']
+   |    |    |    | child_window(auto_id="waitToConfirm", control_type="Custom")
+   |    |    |    |    | 
+   |    |    |    |    | Button - ''    (L1246, T232, R1356, B292)
+   |    |    |    |    | ['Chờ thanh toánButton2', 'Button3']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'Chờ xác nhận'    (L1251, T253, R1351, B271)
+   |    |    |    |    |    | ['Static14', 'Chờ xác nhậnStatic', 'Chờ xác nhận']
+   |    |    |    |    |    | child_window(title="Chờ xác nhận", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '1'    (L1347, T229, R1355, B245)
+   |    |    |    |    |    | ['Static15', '1Static', '1', '1Static0', '1Static1']
+   |    |    |    |    |    | child_window(title="1", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Image - ''    (L1151, T324, R1179, B340)
+   |    |    |    | ['Image7', '13Image', '13Image0', '13Image1']
+   |    |    |    | 
+   |    |    |    | Static - '8'    (L1190, T312, R1198, B329)
+   |    |    |    | ['8', 'Static16', '8Static', '80', '81', '8Static0', '8Static1']
+   |    |    |    | child_window(title="8", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Static - 'Tại bàn'    (L1141, T348, R1189, B366)
+   |    |    |    | ['Static17', 'Tại bàn', 'Tại bànStatic']
+   |    |    |    | child_window(title="Tại bàn", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Image - ''    (L1230, T320, R1252, B342)
+   |    |    |    | ['Image8', '8Image']
+   |    |    |    | 
+   |    |    |    | Static - '1'    (L1266, T312, R1274, B329)
+   |    |    |    | ['Static18', '1Static2', '12', '120', '121']
+   |    |    |    | child_window(title="1", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Static - 'Mang đi'    (L1213, T348, R1269, B366)
+   |    |    |    | ['Static19', 'Mang đi', 'Mang điStatic', 'Mang đi0', 'Mang đi1', 'Mang điStatic0', 'Mang điStatic1']
+   |    |    |    | child_window(title="Mang đi", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Image - ''    (L1303, T320, R1331, B348)
+   |    |    |    | ['Image9', '1Image2']
+   |    |    |    | 
+   |    |    |    | Static - '1'    (L1342, T312, R1350, B329)
+   |    |    |    | ['Static20', '1Static3', '13', '130', '131']
+   |    |    |    | child_window(title="1", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Static - 'Giao hàng'    (L1283, T348, R1351, B366)
+   |    |    |    | ['Static21', 'Giao hàng', 'Giao hàngStatic']
+   |    |    |    | child_window(title="Giao hàng", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Custom - ''    (L1116, T399, R1366, B469)
+   |    |    |    | ['26,400₫Custom', 'Custom8', 'Giao hàngCustom']
+   |    |    |    | child_window(auto_id="uc", control_type="Custom")
+   |    |    |    |    | 
+   |    |    |    |    | Button - ''    (L1127, T399, R1355, B459)
+   |    |    |    |    | ['Tại bànButton', 'Button4']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'Khu vực 1'    (L1209, T420, R1273, B438)
+   |    |    |    |    |    | ['Static22', 'Khu vực 1Static', 'Khu vực 1', 'Khu vực 1Static0', 'Khu vực 1Static1', 'Khu vực 10', 'Khu vực 11']
+   |    |    |    |    |    | child_window(title="Khu vực 1", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '8'    (L1346, T396, R1354, B412)
+   |    |    |    |    |    | ['82', 'Static23', '8Static2']
+   |    |    |    |    |    | child_window(title="8", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Custom - ''    (L0, T0, R0, B0)
+   |    |    |    | ['Custom9']
+   |    |    |    | child_window(auto_id="uc", control_type="Custom")
+   |    |    |    | 
+   |    |    |    | Custom - ''    (L0, T0, R0, B0)
+   |    |    |    | ['Custom10']
+   |    |    |    | child_window(auto_id="uc", control_type="Custom")
+   |    |    |    | 
+   |    |    |    | Custom - ''    (L0, T0, R0, B0)
+   |    |    |    | ['Custom11']
+   |    |    |    | child_window(auto_id="uc", control_type="Custom")
+   |    |    |    | 
+   |    |    |    | Custom - ''    (L0, T0, R0, B0)
+   |    |    |    | ['Custom12']
+   |    |    |    | child_window(auto_id="uc", control_type="Custom")
+   |    |    |    | 
+   |    |    |    | Custom - ''    (L0, T0, R0, B0)
+   |    |    |    | ['Custom13']
+   |    |    |    | child_window(auto_id="uc", control_type="Custom")
+   |    |    |    | 
+   |    |    |    | Custom - ''    (L0, T0, R0, B0)
+   |    |    |    | ['Custom14']
+   |    |    |    | child_window(auto_id="uc", control_type="Custom")
+   |    |    |    | 
+   |    |    |    | Custom - ''    (L0, T0, R0, B0)
+   |    |    |    | ['Custom15']
+   |    |    |    | child_window(auto_id="uc", control_type="Custom")
+   |    |    |    | 
+   |    |    |    | Custom - ''    (L0, T0, R0, B0)
+   |    |    |    | ['Custom16']
+   |    |    |    | child_window(auto_id="uc", control_type="Custom")
+   |    |    |    | 
+   |    |    |    | Custom - ''    (L0, T0, R0, B0)
+   |    |    |    | ['Custom17']
+   |    |    |    | child_window(auto_id="uc", control_type="Custom")
+   |    |    |    | 
+   |    |    |    | Custom - ''    (L0, T0, R0, B0)
+   |    |    |    | ['Custom18']
+   |    |    |    | child_window(auto_id="uc", control_type="Custom")
+   |    |    |    | 
+   |    |    |    | Custom - ''    (L0, T0, R0, B0)
+   |    |    |    | ['Custom19']
+   |    |    |    | child_window(auto_id="uc", control_type="Custom")
+   |    |    |    | 
+   |    |    |    | Custom - ''    (L0, T0, R0, B0)
+   |    |    |    | ['Custom20']
+   |    |    |    | child_window(auto_id="uc", control_type="Custom")
+   |    |    |    | 
+   |    |    |    | Custom - ''    (L0, T0, R0, B0)
+   |    |    |    | ['Custom21']
+   |    |    |    | child_window(auto_id="uc", control_type="Custom")
+   |    |    |    | 
+   |    |    |    | Custom - ''    (L0, T0, R0, B0)
+   |    |    |    | ['Custom22']
+   |    |    |    | child_window(auto_id="uc", control_type="Custom")
+   |    |    |    | 
+   |    |    |    | Custom - ''    (L0, T0, R0, B0)
+   |    |    |    | ['Custom23']
+   |    |    |    | child_window(auto_id="uc", control_type="Custom")
+   |    |    |    | 
+   |    |    |    | Custom - ''    (L0, T0, R0, B0)
+   |    |    |    | ['Custom24']
+   |    |    |    | child_window(auto_id="uc", control_type="Custom")
+   |    |    |    | 
+   |    |    |    | Custom - ''    (L0, T0, R0, B0)
+   |    |    |    | ['Custom25']
+   |    |    |    | child_window(auto_id="uc", control_type="Custom")
+   |    |    |    | 
+   |    |    |    | Custom - ''    (L0, T0, R0, B0)
+   |    |    |    | ['Custom26']
+   |    |    |    | child_window(auto_id="uc", control_type="Custom")
+   |    |    |    | 
+   |    |    |    | Custom - ''    (L0, T0, R0, B0)
+   |    |    |    | ['Custom27']
+   |    |    |    | child_window(auto_id="uc", control_type="Custom")
+   |    |    |    | 
+   |    |    |    | Custom - ''    (L0, T0, R0, B0)
+   |    |    |    | ['Custom28']
+   |    |    |    | child_window(auto_id="uc", control_type="Custom")
+   |    |    |    | 
+   |    |    |    | Custom - ''    (L0, T0, R0, B0)
+   |    |    |    | ['Custom29']
+   |    |    |    | child_window(auto_id="uc", control_type="Custom")
+   |    |    |    | 
+   |    |    |    | Custom - ''    (L0, T0, R0, B0)
+   |    |    |    | ['Custom30']
+   |    |    |    | child_window(auto_id="uc", control_type="Custom")
+   |    |    |    | 
+   |    |    |    | Custom - ''    (L0, T0, R0, B0)
+   |    |    |    | ['Custom31']
+   |    |    |    | child_window(auto_id="uc", control_type="Custom")
+   |    |    |    | 
+   |    |    |    | Custom - ''    (L0, T0, R0, B0)
+   |    |    |    | ['Custom32']
+   |    |    |    | child_window(auto_id="uc", control_type="Custom")
+   |    |    |    | 
+   |    |    |    | Custom - ''    (L0, T0, R0, B0)
+   |    |    |    | ['Custom33']
+   |    |    |    | child_window(auto_id="uc", control_type="Custom")
+   |    |    |    | 
+   |    |    |    | Custom - ''    (L0, T0, R0, B0)
+   |    |    |    | ['Custom34']
+   |    |    |    | child_window(auto_id="uc", control_type="Custom")
+   |    |    |    | 
+   |    |    |    | Custom - ''    (L0, T0, R0, B0)
+   |    |    |    | ['Custom35']
+   |    |    |    | child_window(auto_id="uc", control_type="Custom")
+   |    |    |    | 
+   |    |    |    | Custom - ''    (L0, T0, R0, B0)
+   |    |    |    | ['Custom36']
+   |    |    |    | child_window(auto_id="uc", control_type="Custom")
+   |    |    |    | 
+   |    |    |    | Custom - ''    (L0, T0, R0, B0)
+   |    |    |    | ['Custom37']
+   |    |    |    | child_window(auto_id="uc", control_type="Custom")
+   |    |    |    | 
+   |    |    |    | Custom - ''    (L0, T0, R0, B0)
+   |    |    |    | ['Custom38']
+   |    |    |    | child_window(auto_id="uc", control_type="Custom")
+   |    |    | 
+   |    |    | Button - ''    (L1127, T660, R1233, B705)
+   |    |    | ['Thanh toánButton', 'Button5']
+   |    |    |    | 
+   |    |    |    | Image - ''    (L1167, T668, R1194, B697)
+   |    |    |    | ['Image10', 'Tại bànImage']
+   |    |    | 
+   |    |    | Button - ''    (L1249, T660, R1355, B705)
+   |    |    | ['Khu vực 1Button', 'Button6']
+   |    |    |    | 
+   |    |    |    | Image - ''    (L1289, T668, R1316, B697)
+   |    |    |    | ['Image11', 'Khu vực 1Image', 'Khu vực 1Image0', 'Khu vực 1Image1']
+   |    | 
+   |    | Pane - ''    (L0, T50, R1116, B715)
+   |    | ['Pane2', 'G/H - Đối tác mặc đ...Pane']
+   |    | child_window(auto_id="sv", control_type="Pane")
+   |    |    | 
+   |    |    | Custom - ''    (L0, T50, R1116, B715)
+   |    |    | ['Custom39', 'G/H - Đối tác mặc đ...Custom', 'G/H - Đối tác mặc đ...Custom0', 'G/H - Đối tác mặc đ...Custom1']
+   |    |    |    | 
+   |    |    |    | Custom - ''    (L10, T58, R278, B258)
+   |    |    |    | ['Custom40', 'G/H - Đối tác mặc đ...Custom2']
+   |    |    |    | child_window(auto_id="uc", control_type="Custom")
+   |    |    |    |    | 
+   |    |    |    |    | Image - ''    (L15, T63, R55, B103)
+   |    |    |    |    | ['Image12']
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'G/H - Đối tác mặc đ...'    (L60, T75, R211, B95)
+   |    |    |    |    | ['Static24', 'G/H - Đối tác mặc đ...Static', 'G/H - Đối tác mặc đ...']
+   |    |    |    |    | child_window(title="G/H - Đối tác mặc đ...", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | Image - ''    (L210, T73, R234, B97)
+   |    |    |    |    | ['Image13', 'G/H - Đối tác mặc đ...Image']
+   |    |    |    |    | 
+   |    |    |    |    | Static - '-'    (L239, T75, R245, B95)
+   |    |    |    |    | ['Static25', '-', '-Static', '-0', '-1', '-Static0', '-Static1']
+   |    |    |    |    | child_window(title="-", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'D25164'    (L25, T118, R265, B148)
+   |    |    |    |    | ['Static26', 'D25164Static', 'D25164']
+   |    |    |    |    | child_window(title="D25164", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | Image - ''    (L20, T172, R40, B194)
+   |    |    |    |    | ['Image14', 'D25164Image']
+   |    |    |    |    | 
+   |    |    |    |    | Static - '2 ngày'    (L45, T173, R101, B195)
+   |    |    |    |    | ['Static27', '2 ngày', '2 ngàyStatic', '2 ngàyStatic0', '2 ngàyStatic1', '2 ngày0', '2 ngày1']
+   |    |    |    |    | child_window(title="2 ngày", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | Image - ''    (L176, T174, R196, B194)
+   |    |    |    |    | ['Image15', '2 ngàyImage', '2 ngàyImage0', '2 ngàyImage1']
+   |    |    |    |    | 
+   |    |    |    |    | Static - '43,600₫'    (L201, T173, R268, B195)
+   |    |    |    |    | ['Static28', '43,600₫Static', '43,600₫']
+   |    |    |    |    | child_window(title="43,600₫", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | Menu - ''    (L10, T209, R120, B258)
+   |    |    |    |    | ['Menu', '2 ngàyMenu', 'Menu0', 'Menu1']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | MenuItem - ''    (L10, T209, R120, B258)
+   |    |    |    |    |    | ['2 ngàyMenuItem', 'MenuItem', 'MenuItem0', 'MenuItem1']
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | Static - ''    (L10, T209, R130, B259)
+   |    |    |    |    |    |    | ['Static29', '2 ngàyStatic2']
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | Image - ''    (L54, T221, R78, B245)
+   |    |    |    |    |    |    |    | ['Image16', '2 ngàyImage2']
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'Giao & thanh toán'    (L128, T224, R259, B243)
+   |    |    |    |    | ['Static30', 'Giao & thanh toán', 'Giao & thanh toánStatic', 'Giao & thanh toánStatic0', 'Giao & thanh toánStatic1']
+   |    |    |    |    | child_window(title="Giao & thanh toán", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Custom - ''    (L286, T58, R554, B258)
+   |    |    |    | ['Custom41', 'Giao & thanh toánCustom', 'Sơ đồ bànCustom2']
+   |    |    |    | child_window(auto_id="uc", control_type="Custom")
+   |    |    |    |    | 
+   |    |    |    |    | Image - ''    (L291, T63, R331, B103)
+   |    |    |    |    | ['Image17', 'Sơ đồ bànImage3']
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'Mang đi'    (L336, T75, R486, B95)
+   |    |    |    |    | ['Static31', 'Mang đi2', 'Mang điStatic2']
+   |    |    |    |    | child_window(title="Mang đi", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | Image - ''    (L486, T73, R510, B97)
+   |    |    |    |    | ['Image18', 'Mang điImage']
+   |    |    |    |    | 
+   |    |    |    |    | Static - '-'    (L515, T75, R521, B95)
+   |    |    |    |    | ['Static32', '-2', '-Static2']
+   |    |    |    |    | child_window(title="-", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'T44003'    (L301, T118, R541, B148)
+   |    |    |    |    | ['T44003Static', 'Static33', 'T44003']
+   |    |    |    |    | child_window(title="T44003", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | Image - ''    (L296, T172, R316, B194)
+   |    |    |    |    | ['Image19', 'T44003Image', '43,600₫Image']
+   |    |    |    |    | 
+   |    |    |    |    | Static - '2 ngày'    (L321, T173, R377, B195)
+   |    |    |    |    | ['Static34', '2 ngày2', '2 ngàyStatic3']
+   |    |    |    |    | child_window(title="2 ngày", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | Image - ''    (L452, T174, R472, B194)
+   |    |    |    |    | ['Image20', '2 ngàyImage3']
+   |    |    |    |    | 
+   |    |    |    |    | Static - '39,600₫'    (L477, T173, R544, B195)
+   |    |    |    |    | ['Static35', '39,600₫', '39,600₫Static', '39,600₫0', '39,600₫1', '39,600₫Static0', '39,600₫Static1']
+   |    |    |    |    | child_window(title="39,600₫", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | Menu - ''    (L286, T209, R396, B258)
+   |    |    |    |    | ['Giao & thanh toánMenu', 'Menu2']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | MenuItem - ''    (L286, T209, R396, B258)
+   |    |    |    |    |    | ['Giao & thanh toánMenuItem', 'MenuItem2']
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | Static - ''    (L286, T209, R406, B259)
+   |    |    |    |    |    |    | ['Static36', 'Giao & thanh toánStatic2']
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | Image - ''    (L330, T221, R354, B245)
+   |    |    |    |    |    |    |    | ['Image21', '2 ngàyImage4']
+   |    |    |    |    | 
+   |    |    |    |    | Menu - ''    (L397, T209, R542, B258)
+   |    |    |    |    | ['Menu3', 'Thanh toánMenu', 'Thanh toánMenu0', 'Thanh toánMenu1']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | MenuItem - 'Thanh toán'    (L397, T209, R517, B258)
+   |    |    |    |    |    | ['Thanh toán', 'Thanh toánMenuItem', 'MenuItem3', 'Thanh toán0', 'Thanh toán1', 'Thanh toánMenuItem0', 'Thanh toánMenuItem1']
+   |    |    |    |    |    | child_window(title="Thanh toán", control_type="MenuItem")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | Static - 'Thanh toán'    (L397, T209, R517, B259)
+   |    |    |    |    |    |    | ['Static37', 'Thanh toánStatic', 'Thanh toán2', 'Thanh toánStatic0', 'Thanh toánStatic1']
+   |    |    |    |    |    |    | child_window(title="Thanh toán", control_type="Text")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | Static - 'Thanh toán'    (L427, T222, R507, B243)
+   |    |    |    |    |    |    |    | ['Static38', 'Thanh toánStatic2', 'Thanh toán3']
+   |    |    |    |    |    |    |    | child_window(title="Thanh toán", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Custom - ''    (L562, T58, R830, B258)
+   |    |    |    | ['-Custom', 'Thanh toánCustom', 'Custom42', 'Thanh toánCustom0', 'Thanh toánCustom1']
+   |    |    |    | child_window(auto_id="uc", control_type="Custom")
+   |    |    |    |    | 
+   |    |    |    |    | Image - ''    (L567, T63, R607, B103)
+   |    |    |    |    | ['Image22', '-Image']
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'Khu vực 1'    (L612, T75, R762, B95)
+   |    |    |    |    | ['Static39', 'Khu vực 1Static2', 'Khu vực 12']
+   |    |    |    |    | child_window(title="Khu vực 1", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | Image - ''    (L762, T73, R786, B97)
+   |    |    |    |    | ['Image23', 'Khu vực 1Image2']
+   |    |    |    |    | 
+   |    |    |    |    | Static - '1'    (L791, T76, R800, B96)
+   |    |    |    |    | ['Static40', '1Static4', '14']
+   |    |    |    |    | child_window(title="1", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | Static - '4'    (L577, T118, R817, B148)
+   |    |    |    |    | ['Static41', '4', '4Static']
+   |    |    |    |    | child_window(title="4", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | Image - ''    (L572, T172, R592, B194)
+   |    |    |    |    | ['Image24', '39,600₫Image', '4Image', '39,600₫Image0', '39,600₫Image1']
+   |    |    |    |    | 
+   |    |    |    |    | Static - '1 ngày'    (L597, T173, R653, B195)
+   |    |    |    |    | ['Static42', '1 ngày', '1 ngàyStatic', '1 ngày0', '1 ngày1', '1 ngàyStatic0', '1 ngàyStatic1']
+   |    |    |    |    | child_window(title="1 ngày", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | Image - ''    (L694, T174, R714, B194)
+   |    |    |    |    | ['Image25', '1 ngàyImage', '1 ngàyImage0', '1 ngàyImage1']
+   |    |    |    |    | 
+   |    |    |    |    | Static - '237,601.32₫'    (L719, T173, R820, B195)
+   |    |    |    |    | ['237,601.32₫Static', 'Static43', '237,601.32₫']
+   |    |    |    |    | child_window(title="237,601.32₫", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | Menu - ''    (L562, T209, R672, B258)
+   |    |    |    |    | ['Menu4', 'Thanh toánMenu2']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | MenuItem - ''    (L562, T209, R672, B258)
+   |    |    |    |    |    | ['Thanh toánMenuItem2', 'MenuItem4']
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | Static - ''    (L562, T209, R682, B259)
+   |    |    |    |    |    |    | ['Static44', 'Thanh toánStatic3']
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | Image - ''    (L606, T221, R630, B245)
+   |    |    |    |    |    |    |    | ['Image26', '1 ngàyImage2']
+   |    |    |    |    | 
+   |    |    |    |    | Menu - ''    (L673, T209, R818, B258)
+   |    |    |    |    | ['Menu5', 'Thanh toánMenu3']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | MenuItem - 'Thanh toán'    (L673, T209, R793, B258)
+   |    |    |    |    |    | ['Thanh toán4', 'Thanh toánMenuItem3', 'MenuItem5']
+   |    |    |    |    |    | child_window(title="Thanh toán", control_type="MenuItem")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | Static - 'Thanh toán'    (L673, T209, R793, B259)
+   |    |    |    |    |    |    | ['Static45', 'Thanh toánStatic4', 'Thanh toán5']
+   |    |    |    |    |    |    | child_window(title="Thanh toán", control_type="Text")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | Static - 'Thanh toán'    (L703, T222, R783, B243)
+   |    |    |    |    |    |    |    | ['Static46', 'Thanh toánStatic5', 'Thanh toán6']
+   |    |    |    |    |    |    |    | child_window(title="Thanh toán", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Custom - ''    (L838, T58, R1106, B258)
+   |    |    |    | ['Thanh toánCustom2', 'Custom43', '1Custom2']
+   |    |    |    | child_window(auto_id="uc", control_type="Custom")
+   |    |    |    |    | 
+   |    |    |    |    | Image - ''    (L843, T63, R883, B103)
+   |    |    |    |    | ['Image27', '1Image3']
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'Khu vực 1'    (L888, T75, R1038, B95)
+   |    |    |    |    | ['Static47', 'Khu vực 1Static3', 'Khu vực 13']
+   |    |    |    |    | child_window(title="Khu vực 1", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | Image - ''    (L1038, T73, R1062, B97)
+   |    |    |    |    | ['Image28', 'Khu vực 1Image3']
+   |    |    |    |    | 
+   |    |    |    |    | Static - '1'    (L1067, T76, R1076, B96)
+   |    |    |    |    | ['Static48', '1Static5', '15', '150', '151']
+   |    |    |    |    | child_window(title="1", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | Static - '17'    (L853, T118, R1093, B148)
+   |    |    |    |    | ['Static49', '17', '17Static']
+   |    |    |    |    | child_window(title="17", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | Image - ''    (L848, T172, R868, B194)
+   |    |    |    |    | ['Image29', '237,601.32₫Image', '17Image']
+   |    |    |    |    | 
+   |    |    |    |    | Static - '1 ngày'    (L873, T173, R929, B195)
+   |    |    |    |    | ['Static50', '1 ngày2', '1 ngàyStatic2']
+   |    |    |    |    | child_window(title="1 ngày", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | Image - ''    (L994, T174, R1014, B194)
+   |    |    |    |    | ['Image30', '1 ngàyImage3']
+   |    |    |    |    | 
+   |    |    |    |    | Static - '132,000₫'    (L1019, T173, R1096, B195)
+   |    |    |    |    | ['Static51', '132,000₫Static', '132,000₫']
+   |    |    |    |    | child_window(title="132,000₫", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | Menu - ''    (L838, T209, R948, B258)
+   |    |    |    |    | ['Menu6', 'Thanh toánMenu4']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | MenuItem - ''    (L838, T209, R948, B258)
+   |    |    |    |    |    | ['Thanh toánMenuItem4', 'MenuItem6']
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | Static - ''    (L838, T209, R958, B259)
+   |    |    |    |    |    |    | ['Static52', 'Thanh toánStatic6']
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | Image - ''    (L882, T221, R906, B245)
+   |    |    |    |    |    |    |    | ['Image31', '1 ngàyImage4']
+   |    |    |    |    | 
+   |    |    |    |    | Menu - ''    (L949, T209, R1094, B258)
+   |    |    |    |    | ['Menu7', 'Thanh toánMenu5']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | MenuItem - 'Thanh toán'    (L949, T209, R1069, B258)
+   |    |    |    |    |    | ['Thanh toán7', 'Thanh toánMenuItem5', 'MenuItem7']
+   |    |    |    |    |    | child_window(title="Thanh toán", control_type="MenuItem")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | Static - 'Thanh toán'    (L949, T209, R1069, B259)
+   |    |    |    |    |    |    | ['Static53', 'Thanh toánStatic7', 'Thanh toán8']
+   |    |    |    |    |    |    | child_window(title="Thanh toán", control_type="Text")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | Static - 'Thanh toán'    (L979, T222, R1059, B243)
+   |    |    |    |    |    |    |    | ['Static54', 'Thanh toánStatic8', 'Thanh toán9']
+   |    |    |    |    |    |    |    | child_window(title="Thanh toán", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Custom - ''    (L10, T266, R278, B466)
+   |    |    |    | ['Khu vực 1Custom', 'Custom44', 'Khu vực 1Custom0', 'Khu vực 1Custom1']
+   |    |    |    | child_window(auto_id="uc", control_type="Custom")
+   |    |    |    |    | 
+   |    |    |    |    | Image - ''    (L15, T271, R55, B311)
+   |    |    |    |    | ['Image32', '2 ngàyImage5']
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'Khu vực 1'    (L60, T283, R210, B303)
+   |    |    |    |    | ['Static55', 'Khu vực 1Static4', 'Khu vực 14']
+   |    |    |    |    | child_window(title="Khu vực 1", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | Image - ''    (L210, T281, R234, B305)
+   |    |    |    |    | ['Image33', 'Khu vực 1Image4']
+   |    |    |    |    | 
+   |    |    |    |    | Static - '3'    (L239, T284, R248, B304)
+   |    |    |    |    | ['Static56', '3Static', '3']
+   |    |    |    |    | child_window(title="3", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | Static - '9'    (L25, T326, R265, B356)
+   |    |    |    |    | ['Static57', '9', '9Static']
+   |    |    |    |    | child_window(title="9", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | Image - ''    (L20, T380, R40, B402)
+   |    |    |    |    | ['Image34', '9Image']
+   |    |    |    |    | 
+   |    |    |    |    | Static - '1 ngày'    (L45, T381, R101, B403)
+   |    |    |    |    | ['Static58', '1 ngày3', '1 ngàyStatic3']
+   |    |    |    |    | child_window(title="1 ngày", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | Image - ''    (L166, T382, R186, B402)
+   |    |    |    |    | ['Image35', '1 ngàyImage5']
+   |    |    |    |    | 
+   |    |    |    |    | Static - '283,800₫'    (L191, T381, R268, B403)
+   |    |    |    |    | ['283,800₫Static', 'Static59', '283,800₫']
+   |    |    |    |    | child_window(title="283,800₫", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | Menu - ''    (L10, T417, R120, B466)
+   |    |    |    |    | ['1 ngàyMenu', 'Menu8']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | MenuItem - ''    (L10, T417, R120, B466)
+   |    |    |    |    |    | ['1 ngàyMenuItem', 'MenuItem8']
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | Static - ''    (L10, T417, R130, B467)
+   |    |    |    |    |    |    | ['Static60', '1 ngàyStatic4']
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | Image - ''    (L54, T429, R78, B453)
+   |    |    |    |    |    |    |    | ['Image36', '1 ngàyImage6']
+   |    |    |    |    | 
+   |    |    |    |    | Menu - ''    (L121, T417, R266, B466)
+   |    |    |    |    | ['Menu9', 'Thanh toánMenu6']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | MenuItem - 'Thanh toán'    (L121, T417, R241, B466)
+   |    |    |    |    |    | ['Thanh toán10', 'Thanh toánMenuItem6', 'MenuItem9']
+   |    |    |    |    |    | child_window(title="Thanh toán", control_type="MenuItem")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | Static - 'Thanh toán'    (L121, T417, R241, B467)
+   |    |    |    |    |    |    | ['Static61', 'Thanh toánStatic9', 'Thanh toán11']
+   |    |    |    |    |    |    | child_window(title="Thanh toán", control_type="Text")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | Static - 'Thanh toán'    (L151, T430, R231, B451)
+   |    |    |    |    |    |    |    | ['Static62', 'Thanh toánStatic10', 'Thanh toán12']
+   |    |    |    |    |    |    |    | child_window(title="Thanh toán", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Custom - ''    (L286, T266, R554, B466)
+   |    |    |    | ['3Custom', 'Thanh toánCustom3', 'Custom45']
+   |    |    |    | child_window(auto_id="uc", control_type="Custom")
+   |    |    |    |    | 
+   |    |    |    |    | Image - ''    (L291, T271, R331, B311)
+   |    |    |    |    | ['Image37', '3Image']
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'Khu vực 1'    (L336, T283, R486, B303)
+   |    |    |    |    | ['Static63', 'Khu vực 1Static5', 'Khu vực 15']
+   |    |    |    |    | child_window(title="Khu vực 1", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | Image - ''    (L486, T281, R510, B305)
+   |    |    |    |    | ['Image38', 'Khu vực 1Image5']
+   |    |    |    |    | 
+   |    |    |    |    | Static - '1'    (L515, T284, R524, B304)
+   |    |    |    |    | ['Static64', '1Static6', '16']
+   |    |    |    |    | child_window(title="1", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | Static - '15'    (L301, T326, R541, B356)
+   |    |    |    |    | ['Static65', '15Static', '152']
+   |    |    |    |    | child_window(title="15", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | Image - ''    (L296, T380, R316, B402)
+   |    |    |    |    | ['Image39', '283,800₫Image', '15Image']
+   |    |    |    |    | 
+   |    |    |    |    | Static - '1 ngày'    (L321, T381, R377, B403)
+   |    |    |    |    | ['Static66', '1 ngày4', '1 ngàyStatic5']
+   |    |    |    |    | child_window(title="1 ngày", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | Image - ''    (L452, T382, R472, B402)
+   |    |    |    |    | ['Image40', '1 ngàyImage7']
+   |    |    |    |    | 
+   |    |    |    |    | Static - '39,600₫'    (L477, T381, R544, B403)
+   |    |    |    |    | ['Static67', '39,600₫2', '39,600₫Static2']
+   |    |    |    |    | child_window(title="39,600₫", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | Menu - ''    (L286, T417, R396, B466)
+   |    |    |    |    | ['Menu10', 'Thanh toánMenu7']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | MenuItem - ''    (L286, T417, R396, B466)
+   |    |    |    |    |    | ['Thanh toánMenuItem7', 'MenuItem10']
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | Static - ''    (L286, T417, R406, B467)
+   |    |    |    |    |    |    | ['Static68', 'Thanh toánStatic11']
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | Image - ''    (L330, T429, R354, B453)
+   |    |    |    |    |    |    |    | ['Image41', '1 ngàyImage8']
+   |    |    |    |    | 
+   |    |    |    |    | Menu - ''    (L397, T417, R542, B466)
+   |    |    |    |    | ['Menu11', 'Thanh toánMenu8']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | MenuItem - 'Thanh toán'    (L397, T417, R517, B466)
+   |    |    |    |    |    | ['Thanh toán13', 'Thanh toánMenuItem8', 'MenuItem11']
+   |    |    |    |    |    | child_window(title="Thanh toán", control_type="MenuItem")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | Static - 'Thanh toán'    (L397, T417, R517, B467)
+   |    |    |    |    |    |    | ['Static69', 'Thanh toánStatic12', 'Thanh toán14']
+   |    |    |    |    |    |    | child_window(title="Thanh toán", control_type="Text")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | Static - 'Thanh toán'    (L427, T430, R507, B451)
+   |    |    |    |    |    |    |    | ['Static70', 'Thanh toánStatic13', 'Thanh toán15']
+   |    |    |    |    |    |    |    | child_window(title="Thanh toán", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Custom - ''    (L562, T266, R830, B466)
+   |    |    |    | ['Thanh toánCustom4', 'Custom46', '1Custom3']
+   |    |    |    | child_window(auto_id="uc", control_type="Custom")
+   |    |    |    |    | 
+   |    |    |    |    | Image - ''    (L567, T271, R607, B311)
+   |    |    |    |    | ['Image42', '1Image4']
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'Khu vực 1'    (L612, T283, R762, B303)
+   |    |    |    |    | ['Static71', 'Khu vực 1Static6', 'Khu vực 16']
+   |    |    |    |    | child_window(title="Khu vực 1", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | Image - ''    (L762, T281, R786, B305)
+   |    |    |    |    | ['Image43', 'Khu vực 1Image6']
+   |    |    |    |    | 
+   |    |    |    |    | Static - '1'    (L791, T284, R800, B304)
+   |    |    |    |    | ['Static72', '1Static7', '18']
+   |    |    |    |    | child_window(title="1", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | Static - '32'    (L577, T326, R817, B356)
+   |    |    |    |    | ['32Static', 'Static73', '32']
+   |    |    |    |    | child_window(title="32", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | Image - ''    (L572, T380, R592, B402)
+   |    |    |    |    | ['Image44', '32Image', '39,600₫Image2']
+   |    |    |    |    | 
+   |    |    |    |    | Static - '1 ngày'    (L597, T381, R653, B403)
+   |    |    |    |    | ['Static74', '1 ngày5', '1 ngàyStatic6']
+   |    |    |    |    | child_window(title="1 ngày", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | Image - ''    (L728, T382, R748, B402)
+   |    |    |    |    | ['Image45', '1 ngàyImage9']
+   |    |    |    |    | 
+   |    |    |    |    | Static - '26,400₫'    (L753, T381, R820, B403)
+   |    |    |    |    | ['Static75', '26,400₫', '26,400₫Static', '26,400₫0', '26,400₫1', '26,400₫Static0', '26,400₫Static1']
+   |    |    |    |    | child_window(title="26,400₫", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | Menu - ''    (L562, T417, R672, B466)
+   |    |    |    |    | ['Menu12', 'Thanh toánMenu9']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | MenuItem - ''    (L562, T417, R672, B466)
+   |    |    |    |    |    | ['Thanh toánMenuItem9', 'MenuItem12']
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | Static - ''    (L562, T417, R682, B467)
+   |    |    |    |    |    |    | ['Static76', 'Thanh toánStatic14']
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | Image - ''    (L606, T429, R630, B453)
+   |    |    |    |    |    |    |    | ['Image46', '1 ngàyImage10']
+   |    |    |    |    | 
+   |    |    |    |    | Menu - ''    (L673, T417, R818, B466)
+   |    |    |    |    | ['Menu13', 'Thanh toánMenu10']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | MenuItem - 'Thanh toán'    (L673, T417, R793, B466)
+   |    |    |    |    |    | ['Thanh toán16', 'Thanh toánMenuItem10', 'MenuItem13']
+   |    |    |    |    |    | child_window(title="Thanh toán", control_type="MenuItem")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | Static - 'Thanh toán'    (L673, T417, R793, B467)
+   |    |    |    |    |    |    | ['Static77', 'Thanh toánStatic15', 'Thanh toán17']
+   |    |    |    |    |    |    | child_window(title="Thanh toán", control_type="Text")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | Static - 'Thanh toán'    (L703, T430, R783, B451)
+   |    |    |    |    |    |    |    | ['Static78', 'Thanh toánStatic16', 'Thanh toán18']
+   |    |    |    |    |    |    |    | child_window(title="Thanh toán", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Custom - ''    (L838, T266, R1106, B466)
+   |    |    |    | ['Thanh toánCustom5', 'Custom47', '1Custom4']
+   |    |    |    | child_window(auto_id="uc", control_type="Custom")
+   |    |    |    |    | 
+   |    |    |    |    | Image - ''    (L843, T271, R883, B311)
+   |    |    |    |    | ['Image47', '1Image5']
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'Khu vực 1'    (L888, T283, R1038, B303)
+   |    |    |    |    | ['Static79', 'Khu vực 1Static7', 'Khu vực 17']
+   |    |    |    |    | child_window(title="Khu vực 1", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | Image - ''    (L1038, T281, R1062, B305)
+   |    |    |    |    | ['Image48', 'Khu vực 1Image7']
+   |    |    |    |    | 
+   |    |    |    |    | Static - '1'    (L1067, T284, R1076, B304)
+   |    |    |    |    | ['Static80', '1Static8', '19']
+   |    |    |    |    | child_window(title="1", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | Static - '13'    (L853, T326, R1093, B356)
+   |    |    |    |    | ['132', 'Static81', '13Static']
+   |    |    |    |    | child_window(title="13", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | Image - ''    (L848, T380, R868, B402)
+   |    |    |    |    | ['Image49', '26,400₫Image', '13Image2']
+   |    |    |    |    | 
+   |    |    |    |    | Static - '12:45:06'    (L873, T381, R943, B403)
+   |    |    |    |    | ['Static82', '12:44:48Static', '12:44:48']
+   |    |    |    |    | child_window(title="12:45:06", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | Image - ''    (L1004, T382, R1024, B402)
+   |    |    |    |    | ['Image50', '12:44:48Image', '12:44:49Image', '12:44:49Image0', '12:44:49Image1']
+   |    |    |    |    | 
+   |    |    |    |    | Static - '26,400₫'    (L1029, T381, R1096, B403)
+   |    |    |    |    | ['Static83', '26,400₫2', '26,400₫Static2']
+   |    |    |    |    | child_window(title="26,400₫", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | Menu - ''    (L838, T417, R948, B466)
+   |    |    |    |    | ['Menu14', 'Thanh toánMenu11']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | MenuItem - ''    (L838, T417, R948, B466)
+   |    |    |    |    |    | ['Thanh toánMenuItem11', 'MenuItem14']
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | Static - ''    (L838, T417, R958, B467)
+   |    |    |    |    |    |    | ['Static84', 'Thanh toánStatic17']
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | Image - ''    (L882, T429, R906, B453)
+   |    |    |    |    |    |    |    | ['Image51', '12:44:49Image2']
+   |    |    |    |    | 
+   |    |    |    |    | Menu - ''    (L949, T417, R1094, B466)
+   |    |    |    |    | ['12:44:49Menu', 'Menu15']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | MenuItem - 'Thanh toán'    (L949, T417, R1069, B466)
+   |    |    |    |    |    | ['Thanh toán19', 'Thanh toánMenuItem12', 'MenuItem15']
+   |    |    |    |    |    | child_window(title="Thanh toán", control_type="MenuItem")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | Static - 'Thanh toán'    (L949, T417, R1069, B467)
+   |    |    |    |    |    |    | ['Static85', 'Thanh toánStatic18', 'Thanh toán20']
+   |    |    |    |    |    |    | child_window(title="Thanh toán", control_type="Text")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | Static - 'Thanh toán'    (L979, T430, R1059, B451)
+   |    |    |    |    |    |    |    | ['Static86', 'Thanh toánStatic19', 'Thanh toán21']
+   |    |    |    |    |    |    |    | child_window(title="Thanh toán", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Custom - ''    (L10, T474, R278, B674)
+   |    |    |    | ['Khu vực 1Custom2', 'Custom48']
+   |    |    |    | child_window(auto_id="uc", control_type="Custom")
+   |    |    |    |    | 
+   |    |    |    |    | Image - ''    (L15, T479, R55, B519)
+   |    |    |    |    | ['Image52', '1 ngàyImage11']
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'Khu vực 1'    (L60, T491, R210, B511)
+   |    |    |    |    | ['Static87', 'Khu vực 1Static8', 'Khu vực 18']
+   |    |    |    |    | child_window(title="Khu vực 1", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | Image - ''    (L210, T489, R234, B513)
+   |    |    |    |    | ['Image53', 'Khu vực 1Image8']
+   |    |    |    |    | 
+   |    |    |    |    | Static - '1'    (L239, T492, R248, B512)
+   |    |    |    |    | ['Static88', '1Static9', '110']
+   |    |    |    |    | child_window(title="1", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | Static - '12'    (L25, T534, R265, B564)
+   |    |    |    |    | ['122', 'Static89', '12Static']
+   |    |    |    |    | child_window(title="12", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | Image - ''    (L20, T588, R40, B610)
+   |    |    |    |    | ['Image54', '12Image']
+   |    |    |    |    | 
+   |    |    |    |    | Static - '12:43:54'    (L45, T589, R115, B611)
+   |    |    |    |    | ['Static90', '12:43:36Static', '12:43:36', '12:43:36Static0', '12:43:36Static1']
+   |    |    |    |    | child_window(title="12:43:54", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | Image - ''    (L176, T590, R196, B610)
+   |    |    |    |    | ['Image55', '12:43:36Image', '12:43:36Image0', '12:43:36Image1']
+   |    |    |    |    | 
+   |    |    |    |    | Static - '92,400₫'    (L201, T589, R268, B611)
+   |    |    |    |    | ['92,400₫Static', 'Static91', '92,400₫']
+   |    |    |    |    | child_window(title="92,400₫", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | Menu - ''    (L10, T625, R120, B674)
+   |    |    |    |    | ['12:43:36Menu', 'Menu16', '12:43:36Menu0', '12:43:36Menu1']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | MenuItem - ''    (L10, T625, R120, B674)
+   |    |    |    |    |    | ['MenuItem16', '12:43:36MenuItem']
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | Static - ''    (L10, T625, R130, B675)
+   |    |    |    |    |    |    | ['Static92', '12:43:36Static2']
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | Image - ''    (L54, T637, R78, B661)
+   |    |    |    |    |    |    |    | ['Image56', '12:43:36Image2']
+   |    |    |    |    | 
+   |    |    |    |    | Menu - ''    (L121, T625, R266, B674)
+   |    |    |    |    | ['12:43:36Menu2', 'Menu17']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | MenuItem - 'Thanh toán'    (L121, T625, R241, B674)
+   |    |    |    |    |    | ['Thanh toán22', 'Thanh toánMenuItem13', 'MenuItem17']
+   |    |    |    |    |    | child_window(title="Thanh toán", control_type="MenuItem")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | Static - 'Thanh toán'    (L121, T625, R241, B675)
+   |    |    |    |    |    |    | ['Static93', 'Thanh toánStatic20', 'Thanh toán23']
+   |    |    |    |    |    |    | child_window(title="Thanh toán", control_type="Text")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | Static - 'Thanh toán'    (L151, T638, R231, B659)
+   |    |    |    |    |    |    |    | ['Static94', 'Thanh toánStatic21', 'Thanh toán24']
+   |    |    |    |    |    |    |    | child_window(title="Thanh toán", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Custom - ''    (L286, T474, R554, B674)
+   |    |    |    | ['Thanh toánCustom6', 'Custom49', '1Custom5']
+   |    |    |    | child_window(auto_id="uc", control_type="Custom")
+   |    |    |    |    | 
+   |    |    |    |    | Image - ''    (L291, T479, R331, B519)
+   |    |    |    |    | ['Image57', '1Image6']
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'Khu vực 1'    (L336, T491, R486, B511)
+   |    |    |    |    | ['Static95', 'Khu vực 1Static9', 'Khu vực 19']
+   |    |    |    |    | child_window(title="Khu vực 1", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | Image - ''    (L486, T489, R510, B513)
+   |    |    |    |    | ['Image58', 'Khu vực 1Image9']
+   |    |    |    |    | 
+   |    |    |    |    | Static - '1'    (L515, T492, R524, B512)
+   |    |    |    |    | ['Static96', '1Static10', '111']
+   |    |    |    |    | child_window(title="1", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | Static - '7'    (L301, T534, R541, B564)
+   |    |    |    |    | ['Static97', '7', '7Static']
+   |    |    |    |    | child_window(title="7", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | Image - ''    (L296, T588, R316, B610)
+   |    |    |    |    | ['Image59', '7Image', '92,400₫Image']
+   |    |    |    |    | 
+   |    |    |    |    | Static - '12:37:27'    (L321, T589, R391, B611)
+   |    |    |    |    | ['Static98', '12:37:07Static', '12:37:07']
+   |    |    |    |    | child_window(title="12:37:27", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | Image - ''    (L452, T590, R472, B610)
+   |    |    |    |    | ['Image60', '12:37:07Image', '12:37:07Image0', '12:37:07Image1']
+   |    |    |    |    | 
+   |    |    |    |    | Static - '26,400₫'    (L477, T589, R544, B611)
+   |    |    |    |    | ['Static99', '26,400₫3', '26,400₫Static3']
+   |    |    |    |    | child_window(title="26,400₫", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | Menu - ''    (L286, T625, R396, B674)
+   |    |    |    |    | ['Menu18', 'Thanh toánMenu12']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | MenuItem - ''    (L286, T625, R396, B674)
+   |    |    |    |    |    | ['Thanh toánMenuItem14', 'MenuItem18']
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | Static - ''    (L286, T625, R406, B675)
+   |    |    |    |    |    |    | ['Static100', 'Thanh toánStatic22']
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | Image - ''    (L330, T637, R354, B661)
+   |    |    |    |    |    |    |    | ['Image61', '12:37:07Image2']
+   |    |    |    |    | 
+   |    |    |    |    | Menu - ''    (L397, T625, R542, B674)
+   |    |    |    |    | ['Menu19', '12:37:08Menu']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | MenuItem - 'Thanh toán'    (L397, T625, R517, B674)
+   |    |    |    |    |    | ['Thanh toán25', 'Thanh toánMenuItem15', 'MenuItem19']
+   |    |    |    |    |    | child_window(title="Thanh toán", control_type="MenuItem")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | Static - 'Thanh toán'    (L397, T625, R517, B675)
+   |    |    |    |    |    |    | ['Static101', 'Thanh toánStatic23', 'Thanh toán26']
+   |    |    |    |    |    |    | child_window(title="Thanh toán", control_type="Text")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | Static - 'Thanh toán'    (L427, T638, R507, B659)
+   |    |    |    |    |    |    |    | ['Static102', 'Thanh toánStatic24', 'Thanh toán27']
+   |    |    |    |    |    |    |    | child_window(title="Thanh toán", control_type="Text")
+   |    | 
+   |    | Custom - ''    (L0, T0, R0, B0)
+   |    | ['Custom50']
+   |    | child_window(auto_id="uc", control_type="Custom")

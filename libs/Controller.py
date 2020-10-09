@@ -3,34 +3,65 @@ from robot.api.deco import keyword
 from pywinauto.keyboard import send_keys
 
 app = Application(backend="uia").connect(path="C:\Program Files\SapoFnB\SapoFnB.exe")
-dlg = app.MainWindow  
+dlg = app.MainWindow
+
 @keyword("Open Application")
 def loginPin(button):
-    #dlg.print_control_identifiers()
     dlg[""+button+""].click()
     dlg[""+button+""].click()
     dlg[""+button+""].click()
     dlg[""+button+""].click()
+
 @keyword("Click CreateNewCart Button")
 def createCart():
     create = dlg.child_window(title="Tạo đơn mới", control_type="Text")
     create.click_input()
-    #dlg.print_control_identifiers()
 
-@keyword("Select table")   
-def selectTable(table_number):
+@keyword("Open cart")
+def openCart(area, table):
+    open_cart = dlg.child_window(title= ""+area+"", control_type="Text")
+    open_cart = dlg.child_window(title= ""+table+"", control_type="Text")
+    open_cart.click_input()
+
+@keyword("Select table internal")   
+def selectTableInternal(area2, table2):
     table = dlg.child_window(title="Chọn bàn", control_type="Text")
     table.click_input()
-    #dlg.print_control_identifiers()
-    dlg[""+table_number+""].click()
-    #dlg.print_control_identifiers()
+    area3 = dlg.child_window(title= ""+area2+"", control_type="Text")
+    area4 = dlg.child_window(title= ""+table2+"", control_type="Text")
+    area3.click_input()
+    area4.click_input()
+
+@keyword("Select table external")   
+def selectTableExternal(area1, table1):
+    maps = dlg.child_window(title="Sơ đồ bàn", control_type="Text")
+    maps.click_input()
+    area1 = dlg.child_window(title= ""+area1+"", control_type="Text")
+    area2 = dlg.child_window(title= ""+table1+"", control_type="Text")
+    area1.click_input()
+    area2.click_input()
+
+
+@keyword("Select Services")
+def selectService(services):
+    services = dlg.child_window(title= ""+services+"", control_type="Text")
+    services.click_input()
+
+@keyword("Click More Action")
+def clickMoreAction(more_action, action):
+    dlg[""+more_action+""].click_input()
 
 # Chọn item trong thực đơn
 @keyword("Select Item")
 def selectItemOnePrice(item_one_price):
     item_one_price = dlg.child_window(title= ""+item_one_price+"", control_type="Text")
     item_one_price.click_input()
-    #dlg.print_control_identifiers()
+
+#Chọn thực đơn
+@keyword("Select Menu")
+def selectCa(menu):
+    menu = dlg.child_window(title= ""+menu+"", control_type="Text")
+    menu.click_input()
 
 #Focus item trong order detail
 @keyword("Focus Item")
@@ -41,13 +72,11 @@ def focusItem(focus_item):
 #Popup trọng lượng
 @keyword("Enter weight")
 def selectItemWeight(item_weight):
-    #dlg.print_control_identifiers()
     dlg[""+item_weight+""].click()
 
 #Popup số lượng
 @keyword("Enter quanity")
 def enterQuanity(quanity):
-    #dlg.print_control_identifiers()
     dlg[""+quanity+""].click()
 
 #Select price
@@ -55,7 +84,6 @@ def enterQuanity(quanity):
 def selectPrice(s_price):
     price = dlg.child_window(title=""+s_price+"", control_type="Text")
     price.click_input()
-    #dlg.print_control_identifiers()
 
 #Select General Section
 @keyword("Select Genetal Section")
@@ -73,6 +101,19 @@ def selectMod():
 @keyword("Enter price")
 def enterPrice(e_price):
     dlg[""+e_price+""].click()
+
+@keyword("Enter PIN")
+def enterPIN(pin):
+    dlg[""+pin+""].click()
+    dlg[""+pin+""].click()
+    dlg[""+pin+""].click()
+    dlg[""+pin+""].click()
+    
+@keyword("Enter Reason Cancel Item")
+def enterReason(reason, ac):
+    dlg.Edit2.type_keys(""+reason+"", with_spaces=True)
+    action = dlg.child_window(title=""+ac+"", control_type="Text")
+    action.click_input()
 
 #Select Mod-set
 @keyword("Select Mod-set")
@@ -99,7 +140,7 @@ def clickEditButton():
 #Action Xoá item
 @keyword("Click Remove button")
 def clickRemoveButton():
-    rev = dlg.child_window(title="Xoá", control_type="Text")
+    rev = dlg.child_window(title="Xóa", control_type="Text")
     rev.click_input()
 
     
@@ -108,12 +149,12 @@ def clickRemoveButton():
 def confirmOutListCart():
     yes = dlg.child_window(title="Có, ra danh sách đơn", control_type="Text")
     yes.click_input()
-    #dlg.print_control_identifiers()
+
 @keyword("Confirm stay on detail cart")
 def confirmStayDetailCart():
     no = dlg.child_window(title="Không, ở lại đơn", control_type="Text")
     no.click_input()
-    #dlg.print_control_identifiers()
+    
 
 @keyword("Confirm save with Exit button")
 def confirmSaveCart():
@@ -135,7 +176,7 @@ def enter():
 def clickProvisional():
     prov = dlg.child_window(title="Tạm tính", control_type="Text")
     prov.click_input()
-    #dlg.print_control_identifiers()
+    
 @keyword("Click Payment Button")
 def clickPayment():
     payment = dlg.child_window(title="Thanh toán", control_type="Text")
@@ -150,3 +191,8 @@ def clickExit():
 def clickSave():
     save = dlg.child_window(title="Lưu đơn", control_type="Text")
     save.click_input()
+
+#Investigate properity
+@keyword("Investigate Properity")
+def investigate():
+    dlg.print_control_identifiers()
