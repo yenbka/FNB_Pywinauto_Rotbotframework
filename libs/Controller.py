@@ -163,7 +163,7 @@ def confirmSaveCart():
 
 @keyword("Confirm not save with Exit button")
 def confirmUnSaveCart():
-    nosav = dlg.child_window(title="Huỷ", control_type="Text")
+    nosav = dlg.child_window(title="Hủy", control_type="Text")
     nosav.click_input()
     
 #Phím tắt ENTER
@@ -191,6 +191,24 @@ def clickExit():
 def clickSave():
     save = dlg.child_window(title="Lưu đơn", control_type="Text")
     save.click_input()
+
+#confirm payment
+@keyword("Click Confirm Payment button")
+def clickConfirmPayment():
+    payment_confirm = dlg.child_window(title="XÁC NHẬN THANH TOÁN (F1)", control_type="Text")
+    payment_confirm.click_input()
+
+#finish payment
+@keyword("Click Print and Finish button")
+def clickPrintAndFinish():
+    print_finish = dlg.child_window(title="In & Hoàn tất (F5)", control_type="Text")
+    print_finish.click_input()
+
+@keyword("Click Finish button")
+def clickFinish():
+    finish = dlg.child_window(title="Hoàn tất (F4)", control_type="Text")
+    finish.click_input()
+
 
 #Investigate properity
 @keyword("Investigate Properity")

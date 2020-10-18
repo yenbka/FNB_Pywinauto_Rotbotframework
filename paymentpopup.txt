@@ -1,0 +1,791 @@
+Dialog - 'MainWindow'    (L0, T0, R1366, B768)
+['MainWindowDialog', 'Dialog', 'MainWindow']
+child_window(title="MainWindow", control_type="Window")
+   | 
+   | Custom - ''    (L0, T0, R1366, B768)
+   | ['Thực đơn 1Custom', 'Custom', 'Custom0', 'Custom1', 'Thực đơn 1Custom0', 'Thực đơn 1Custom1']
+   | child_window(auto_id="uc", control_type="Custom")
+   |    | 
+   |    | Custom - ''    (L0, T0, R1366, B50)
+   |    | ['Custom2']
+   |    |    | 
+   |    |    | Image - ''    (L1236, T24, R1256, B27)
+   |    |    | ['Image', 'Image0', 'Image1']
+   |    |    | 
+   |    |    | Image - ''    (L1316, T15, R1336, B35)
+   |    |    | ['Image2']
+   |    | 
+   |    | Custom - ''    (L1000, T50, R1361, B768)
+   |    | ['Nhập tên mặt hàng (F4)Custom', 'Custom3']
+   |    | child_window(auto_id="cartAreaUc", control_type="Custom")
+   |    |    | 
+   |    |    | Menu - ''    (L1000, T50, R1070, B99)
+   |    |    | ['Menu', 'Nhập tên mặt hàng (F4)Menu', 'Menu0', 'Menu1']
+   |    |    |    | 
+   |    |    |    | MenuItem - ''    (L1000, T50, R1070, B99)
+   |    |    |    | ['MenuItem', 'Nhập tên mặt hàng (F4)MenuItem', 'MenuItem0', 'MenuItem1']
+   |    |    |    |    | 
+   |    |    |    |    | Static - ''    (L1000, T50, R1070, B88)
+   |    |    |    |    | ['Static', 'Nhập tên mặt hàng (F4)Static', 'Static0', 'Static1', 'Nhập tên mặt hàng (F4)Static0', 'Nhập tên mặt hàng (F4)Static1']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Image - ''    (L1025, T70, R1045, B82)
+   |    |    |    |    |    | ['Image3', 'Nhập tên mặt hàng (F4)Image', 'Nhập tên mặt hàng (F4)Image0', 'Nhập tên mặt hàng (F4)Image1']
+   |    |    | 
+   |    |    | Static - 'Khu vực 1 - 20'    (L1086, T65, R1188, B84)
+   |    |    | ['Static2', 'Khu vực 1 - 20', 'Khu vực 1 - 20Static', 'Khu vực 1 - 20Static0', 'Khu vực 1 - 20Static1']
+   |    |    | child_window(title="Khu vực 1 - 20", control_type="Text")
+   |    |    | 
+   |    |    | Image - ''    (L1203, T63, R1227, B87)
+   |    |    | ['Image4', 'Khu vực 1 - 20Image', 'Khu vực 1 - 20Image0', 'Khu vực 1 - 20Image1']
+   |    |    | 
+   |    |    | Menu - ''    (L1304, T50, R1358, B99)
+   |    |    | ['Menu2', 'Khu vực 1 - 20Menu']
+   |    |    |    | 
+   |    |    |    | MenuItem - ''    (L1304, T50, R1358, B99)
+   |    |    |    | ['MenuItem2', 'Khu vực 1 - 20MenuItem']
+   |    |    |    |    | 
+   |    |    |    |    | Static - ''    (L1304, T50, R1358, B90)
+   |    |    |    |    | ['Static3', 'Khu vực 1 - 20Static2']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Image - ''    (L1329, T65, R1335, B85)
+   |    |    |    |    |    | ['Image5', 'Khu vực 1 - 20Image2']
+   |    |    | 
+   |    |    | Button - ''    (L1010, T554, R1070, B604)
+   |    |    | ['Button', 'CButton', 'Button0', 'Button1', 'CButton0', 'CButton1']
+   |    |    |    | 
+   |    |    |    | Image - ''    (L1031, T570, R1049, B588)
+   |    |    |    | ['Image6', '0Image', '0Image0', '0Image1']
+   |    |    |    | 
+   |    |    |    | Static - '0'    (L1048, T553, R1068, B570)
+   |    |    |    | ['Static4', '0Static', '0', '01', '00', '0Static0', '0Static1']
+   |    |    |    | child_window(title="0", control_type="Text")
+   |    |    | 
+   |    |    | Button - ''    (L1075, T554, R1235, B604)
+   |    |    | ['0Button', 'Button2', '0Button0', '0Button1']
+   |    |    | child_window(auto_id="ButtonDiscount", control_type="Button")
+   |    |    |    | 
+   |    |    |    | Image - ''    (L1081, T569, R1101, B589)
+   |    |    |    | ['Image7', '0Image2']
+   |    |    |    | 
+   |    |    |    | Static - 'Chiết khấu(F6)'    (L1106, T569, R1195, B589)
+   |    |    |    | ['Static5', 'Chiết khấu(F6)Static', 'Chiết khấu(F6)']
+   |    |    |    | child_window(title="Chiết khấu(F6)", control_type="Text")
+   |    |    | 
+   |    |    | Button - ''    (L1245, T554, R1295, B604)
+   |    |    | ['Button3', 'Chiết khấu(F6)Button', 'Chiết khấu(F6)Button0', 'Chiết khấu(F6)Button1']
+   |    |    |    | 
+   |    |    |    | Image - ''    (L1260, T571, R1280, B587)
+   |    |    |    | ['Image8', 'Chiết khấu(F6)Image', 'Chiết khấu(F6)Image0', 'Chiết khấu(F6)Image1']
+   |    |    | 
+   |    |    | Button - ''    (L1300, T554, R1350, B604)
+   |    |    | ['Button4', 'Chiết khấu(F6)Button2']
+   |    |    |    | 
+   |    |    |    | Image - ''    (L1315, T571, R1335, B587)
+   |    |    |    | ['Image9', 'Chiết khấu(F6)Image2']
+   |    |    | 
+   |    |    | Static - 'Tổng tiền'    (L1015, T625, R1115, B645)
+   |    |    | ['Static6', 'Tổng tiềnStatic', 'Tổng tiền', 'Tổng tiềnStatic0', 'Tổng tiềnStatic1', 'Tổng tiền0', 'Tổng tiền1']
+   |    |    | child_window(title="Tổng tiền", control_type="Text")
+   |    |    | 
+   |    |    | Static - '26,400₫'    (L1115, T625, R1305, B647)
+   |    |    | ['Static7', '26,400₫Static', '26,400₫', '26,400₫Static0', '26,400₫Static1', '26,400₫0', '26,400₫1']
+   |    |    | child_window(title="26,400₫", control_type="Text")
+   |    |    | 
+   |    |    | Menu - ''    (L1310, T615, R1355, B655)
+   |    |    | ['Menu3', '26,400₫Menu']
+   |    |    |    | 
+   |    |    |    | MenuItem - ''    (L1311, T616, R1354, B654)
+   |    |    |    | ['MenuItem3', '26,400₫MenuItem']
+   |    |    |    |    | 
+   |    |    |    |    | Static - ''    (L1311, T616, R1354, B656)
+   |    |    |    |    | ['Static8', '26,400₫Static2']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Image - ''    (L1323, T627, R1342, B646)
+   |    |    |    |    |    | ['26,400₫Image', 'Image10']
+   |    |    | 
+   |    |    | Button - ''    (L1000, T660, R1084, B770)
+   |    |    | ['Tổng tiềnButton', 'Button5']
+   |    |    |    | 
+   |    |    |    | Static - 'Thoát'    (L1021, T698, R1062, B717)
+   |    |    |    | ['Static9', 'ThoátStatic', 'Thoát']
+   |    |    |    | child_window(title="Thoát", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Static - '(ESC)'    (L1021, T716, R1062, B735)
+   |    |    |    | ['Static10', '(ESC)', '(ESC)Static']
+   |    |    |    | child_window(title="(ESC)", control_type="Text")
+   |    |    | 
+   |    |    | Button - ''    (L1084, T660, R1168, B770)
+   |    |    | ['(ESC)Button', 'Button6', 'XÁC NHẬN THANH TOÁN (F1)Button']
+   |    |    |    | 
+   |    |    |    | Static - 'Lưu đơn'    (L1096, T698, R1155, B717)
+   |    |    |    | ['Static11', 'Lưu đơn', 'Lưu đơnStatic']
+   |    |    |    | child_window(title="Lưu đơn", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Static - '(F3)'    (L1096, T716, R1155, B735)
+   |    |    |    | ['Static12', '(F3)', '(F3)Static']
+   |    |    |    | child_window(title="(F3)", control_type="Text")
+   |    |    | 
+   |    |    | Button - ''    (L1168, T660, R1252, B770)
+   |    |    | ['Lưu đơnButton', 'Button7', '(F3)Button']
+   |    |    |    | 
+   |    |    |    | Static - 'Tạm tính'    (L1178, T698, R1241, B717)
+   |    |    |    | ['Static13', 'Tạm tính', 'Tạm tínhStatic']
+   |    |    |    | child_window(title="Tạm tính", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Static - '(F2)'    (L1178, T716, R1241, B735)
+   |    |    |    | ['Static14', '(F2)', '(F2)Static']
+   |    |    |    | child_window(title="(F2)", control_type="Text")
+   |    |    | 
+   |    |    | Button - ''    (L1252, T660, R1361, B770)
+   |    |    | ['(F2)Button', 'Tạm tínhButton', 'Button8']
+   |    |    |    | 
+   |    |    |    | Static - 'Thanh toán'    (L1266, T698, R1347, B717)
+   |    |    |    | ['Static15', 'Thanh toán', 'Thanh toánStatic']
+   |    |    |    | child_window(title="Thanh toán", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Static - '(F1)'    (L1266, T716, R1347, B735)
+   |    |    |    | ['Static16', '(F1)Static', '(F1)']
+   |    |    |    | child_window(title="(F1)", control_type="Text")
+   |    |    | 
+   |    |    | Pane - ''    (L1000, T100, R1361, B548)
+   |    |    | ['01.Pane', 'Pane']
+   |    |    | child_window(auto_id="sv", control_type="Pane")
+   |    |    |    | 
+   |    |    |    | Static - '01.'    (L1010, T115, R1035, B132)
+   |    |    |    | ['Static17', '01.Static', '01.']
+   |    |    |    | child_window(title="01.", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Static - 'Item 20k'    (L1035, T115, R1211, B132)
+   |    |    |    | ['Static18', 'Item 20kStatic', 'Item 20k', 'Item 20kStatic0', 'Item 20kStatic1', 'Item 20k0', 'Item 20k1']
+   |    |    |    | child_window(title="Item 20k", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Static - '01'    (L1221, T115, R1261, B132)
+   |    |    |    | ['Static19', '01Static']
+   |    |    |    | child_window(title="01", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Static - '20,000₫'    (L1266, T115, R1351, B132)
+   |    |    |    | ['Static20', '20,000₫', '20,000₫Static']
+   |    |    |    | child_window(title="20,000₫", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Static - 'Giá thường    20,000₫'    (L1035, T134, R1351, B151)
+   |    |    |    | ['Static21', 'Giá thường    20,000₫Static', 'Giá thường    20,000₫']
+   |    |    |    | child_window(title="Giá thường    20,000₫", control_type="Text")
+   |    | 
+   |    | Custom - ''    (L0, T715, R1000, B768)
+   |    | ['Custom4', '1Custom']
+   |    |    | 
+   |    |    | Image - ''    (L9, T722, R46, B761)
+   |    |    | ['Image11', '1Image']
+   |    |    | 
+   |    |    | Static - 'Nguyễn Quang Huy'    (L59, T732, R199, B751)
+   |    |    | ['Static22', 'Nguyễn Quang Huy', 'Nguyễn Quang HuyStatic']
+   |    |    | child_window(title="Nguyễn Quang Huy", control_type="Text")
+   |    |    | 
+   |    |    | Image - ''    (L498, T723, R530, B755)
+   |    |    | ['Nguyễn Quang HuyImage', 'Image12', '6Image']
+   |    |    | 
+   |    |    | Static - 'Test Live PC'    (L542, T732, R625, B751)
+   |    |    | ['Static23', 'Test Live PCStatic', 'Test Live PC']
+   |    |    | child_window(title="Test Live PC", control_type="Text")
+   |    |    | 
+   |    |    | Static - '01:18 PM'    (L914, T722, R995, B742)
+   |    |    | ['Static24', '01:18 PMStatic', '01:18 PM']
+   |    |    | child_window(title="01:18 PM", control_type="Text")
+   |    |    | 
+   |    |    | Static - '18/10/2020'    (L914, T742, R995, B761)
+   |    |    | ['Static25', '18/10/2020', '18/10/2020Static']
+   |    |    | child_window(title="18/10/2020", control_type="Text")
+   |    | 
+   |    | Custom - ''    (L3, T50, R997, B715)
+   |    | ['Thực đơn 1Custom2', 'Custom5']
+   |    | child_window(auto_id="uc", control_type="Custom")
+   |    |    | 
+   |    |    | Button - ''    (L3, T50, R73, B100)
+   |    |    | ['Button9']
+   |    |    |    | 
+   |    |    |    | Image - ''    (L28, T67, R48, B83)
+   |    |    |    | ['Image13']
+   |    |    | 
+   |    |    | Button - ''    (L73, T50, R143, B100)
+   |    |    | ['Button10']
+   |    |    |    | 
+   |    |    |    | Image - ''    (L98, T67, R118, B83)
+   |    |    |    | ['Image14']
+   |    |    | 
+   |    |    | Edit - ''    (L146, T50, R947, B100)
+   |    |    | ['Nhập tên mặt hàng (F4)Edit', 'Edit', 'Edit0', 'Edit1']
+   |    |    | child_window(auto_id="txtSearchBox", control_type="Edit")
+   |    |    |    | 
+   |    |    |    | Static - 'Nhập tên mặt hàng (F4)'    (L168, T68, R927, B82)
+   |    |    |    | ['Static26', 'Nhập tên mặt hàng (F4)Static2', 'Nhập tên mặt hàng (F4)']
+   |    |    |    | child_window(title="Nhập tên mặt hàng (F4)", control_type="Text")
+   |    |    | 
+   |    |    | Button - '1'    (L3, T660, R93, B715)
+   |    |    | ['Button11', '1Button', '1', '10', '11', '1Button0', '1Button1']
+   |    |    | child_window(title="1", control_type="Button")
+   |    |    |    | 
+   |    |    |    | Static - '1'    (L43, T676, R54, B700)
+   |    |    |    | ['Static27', '1Static', '12', '1Static0', '1Static1']
+   |    |    |    | child_window(title="1", control_type="Text")
+   |    |    | 
+   |    |    | Button - '2'    (L96, T660, R184, B715)
+   |    |    | ['Button12', '2', '2Button', '20', '21', '2Button0', '2Button1']
+   |    |    | child_window(title="2", control_type="Button")
+   |    |    |    | 
+   |    |    |    | Static - '2'    (L135, T676, R145, B700)
+   |    |    |    | ['Static28', '22', '2Static', '2Static0', '2Static1']
+   |    |    |    | child_window(title="2", control_type="Text")
+   |    |    | 
+   |    |    | Button - '3'    (L187, T660, R274, B715)
+   |    |    | ['3Button', '3', 'Button13', '30', '31', '3Button0', '3Button1']
+   |    |    | child_window(title="3", control_type="Button")
+   |    |    |    | 
+   |    |    |    | Static - '3'    (L225, T676, R236, B700)
+   |    |    |    | ['Static29', '3Static', '32', '3Static0', '3Static1']
+   |    |    |    | child_window(title="3", control_type="Text")
+   |    |    | 
+   |    |    | Button - '4'    (L277, T660, R364, B715)
+   |    |    | ['4', '4Button', 'Button14', '40', '41', '4Button0', '4Button1']
+   |    |    | child_window(title="4", control_type="Button")
+   |    |    |    | 
+   |    |    |    | Static - '4'    (L315, T676, R326, B700)
+   |    |    |    | ['Static30', '42', '4Static', '4Static0', '4Static1']
+   |    |    |    | child_window(title="4", control_type="Text")
+   |    |    | 
+   |    |    | Button - '5'    (L367, T660, R455, B715)
+   |    |    | ['5Button', '5', 'Button15', '50', '51', '5Button0', '5Button1']
+   |    |    | child_window(title="5", control_type="Button")
+   |    |    |    | 
+   |    |    |    | Static - '5'    (L406, T676, R417, B700)
+   |    |    |    | ['Static31', '52', '5Static', '5Static0', '5Static1']
+   |    |    |    | child_window(title="5", control_type="Text")
+   |    |    | 
+   |    |    | Button - '6'    (L458, T660, R545, B715)
+   |    |    | ['6', 'Button16', '6Button', '60', '61', '6Button0', '6Button1']
+   |    |    | child_window(title="6", control_type="Button")
+   |    |    |    | 
+   |    |    |    | Static - '6'    (L496, T676, R507, B700)
+   |    |    |    | ['Static32', '62', '6Static', '6Static0', '6Static1']
+   |    |    |    | child_window(title="6", control_type="Text")
+   |    |    | 
+   |    |    | Button - '7'    (L548, T660, R636, B715)
+   |    |    | ['Button17', '7Button', '7', '70', '71', '7Button0', '7Button1']
+   |    |    | child_window(title="7", control_type="Button")
+   |    |    |    | 
+   |    |    |    | Static - '7'    (L586, T676, R597, B700)
+   |    |    |    | ['Static33', '7Static', '72', '7Static0', '7Static1']
+   |    |    |    | child_window(title="7", control_type="Text")
+   |    |    | 
+   |    |    | Button - '8'    (L639, T660, R726, B715)
+   |    |    | ['8Button', '8', 'Button18', '80', '81', '8Button0', '8Button1']
+   |    |    | child_window(title="8", control_type="Button")
+   |    |    |    | 
+   |    |    |    | Static - '8'    (L677, T676, R688, B700)
+   |    |    |    | ['Static34', '82', '8Static', '8Static0', '8Static1']
+   |    |    |    | child_window(title="8", control_type="Text")
+   |    |    | 
+   |    |    | Button - '9'    (L729, T660, R816, B715)
+   |    |    | ['9', 'Button19', '9Button', '90', '91', '9Button0', '9Button1']
+   |    |    | child_window(title="9", control_type="Button")
+   |    |    |    | 
+   |    |    |    | Static - '9'    (L767, T676, R778, B700)
+   |    |    |    | ['Static35', '92', '9Static', '9Static0', '9Static1']
+   |    |    |    | child_window(title="9", control_type="Text")
+   |    |    | 
+   |    |    | Button - '0'    (L819, T660, R907, B715)
+   |    |    | ['0Button2', '02', 'Button20']
+   |    |    | child_window(title="0", control_type="Button")
+   |    |    |    | 
+   |    |    |    | Static - '0'    (L858, T676, R868, B700)
+   |    |    |    | ['Static36', '0Static2', '03']
+   |    |    |    | child_window(title="0", control_type="Text")
+   |    |    | 
+   |    |    | Button - '...'    (L910, T660, R997, B715)
+   |    |    | ['...', '...Button', 'Button21', '...0', '...1']
+   |    |    | child_window(title="...", control_type="Button")
+   |    |    |    | 
+   |    |    |    | Static - '...'    (L947, T676, R960, B700)
+   |    |    |    | ['Static37', '...Static', '...2']
+   |    |    |    | child_window(title="...", control_type="Text")
+   |    |    | 
+   |    |    | Button - 'Thực đơn 1'    (L3, T100, R143, B179)
+   |    |    | ['Thực đơn 1Button', 'Button22', 'Thực đơn 1', 'Thực đơn 10', 'Thực đơn 11']
+   |    |    | child_window(title="Thực đơn 1", control_type="Button")
+   |    |    |    | 
+   |    |    |    | Static - 'Thực đơn 1'    (L33, T130, R113, B149)
+   |    |    |    | ['Static38', 'Thực đơn 1Static', 'Thực đơn 12']
+   |    |    |    | child_window(title="Thực đơn 1", control_type="Text")
+   |    |    | 
+   |    |    | Button - 'Thực đơn 2'    (L3, T179, R143, B259)
+   |    |    | ['Thực đơn 2', 'Thực đơn 2Button', 'Button23', 'Thực đơn 20', 'Thực đơn 21']
+   |    |    | child_window(title="Thực đơn 2", control_type="Button")
+   |    |    |    | 
+   |    |    |    | Static - 'Thực đơn 2'    (L33, T209, R113, B228)
+   |    |    |    | ['Static39', 'Thực đơn 22', 'Thực đơn 2Static']
+   |    |    |    | child_window(title="Thực đơn 2", control_type="Text")
+   |    |    | 
+   |    |    | Button - 'Thực đơn 3'    (L3, T259, R143, B338)
+   |    |    | ['Thực đơn 3', 'Button24', 'Thực đơn 3Button', 'Thực đơn 30', 'Thực đơn 31']
+   |    |    | child_window(title="Thực đơn 3", control_type="Button")
+   |    |    |    | 
+   |    |    |    | Static - 'Thực đơn 3'    (L33, T288, R113, B307)
+   |    |    |    | ['Static40', 'Thực đơn 32', 'Thực đơn 3Static']
+   |    |    |    | child_window(title="Thực đơn 3", control_type="Text")
+   |    |    | 
+   |    |    | Button - 'Thực đơn hoa quả'    (L3, T338, R143, B417)
+   |    |    | ['Thực đơn hoa quảButton', 'Thực đơn hoa quả', 'Button25', 'Thực đơn hoa quả0', 'Thực đơn hoa quả1']
+   |    |    | child_window(title="Thực đơn hoa quả", control_type="Button")
+   |    |    |    | 
+   |    |    |    | Static - 'Thực đơn hoa quả'    (L9, T367, R137, B387)
+   |    |    |    | ['Static41', 'Thực đơn hoa quả2', 'Thực đơn hoa quảStatic']
+   |    |    |    | child_window(title="Thực đơn hoa quả", control_type="Text")
+   |    |    | 
+   |    |    | Button - 'Thực đơn fast food'    (L3, T417, R143, B496)
+   |    |    | ['Thực đơn fast foodButton', 'Thực đơn fast food', 'Button26', 'Thực đơn fast food0', 'Thực đơn fast food1']
+   |    |    | child_window(title="Thực đơn fast food", control_type="Button")
+   |    |    |    | 
+   |    |    |    | Static - 'Thực đơn fast food'    (L6, T447, R140, B466)
+   |    |    |    | ['Static42', 'Thực đơn fast food2', 'Thực đơn fast foodStatic']
+   |    |    |    | child_window(title="Thực đơn fast food", control_type="Text")
+   |    |    | 
+   |    |    | Button - 'Thực đơn truyền thống'    (L3, T496, R143, B576)
+   |    |    | ['Thực đơn truyền thống', 'Thực đơn truyền thốngButton', 'Button27', 'Thực đơn truyền thống0', 'Thực đơn truyền thống1']
+   |    |    | child_window(title="Thực đơn truyền thống", control_type="Button")
+   |    |    |    | 
+   |    |    |    | Static - 'Thực đơn truyền thống'    (L15, T516, R131, B555)
+   |    |    |    | ['Static43', 'Thực đơn truyền thống2', 'Thực đơn truyền thốngStatic']
+   |    |    |    | child_window(title="Thực đơn truyền thống", control_type="Text")
+   |    |    | 
+   |    |    | Button - 'Thực đơn đồ tây'    (L3, T576, R143, B655)
+   |    |    | ['Thực đơn đồ tây', 'Button28', 'Thực đơn đồ tâyButton', 'Thực đơn đồ tây0', 'Thực đơn đồ tây1']
+   |    |    | child_window(title="Thực đơn đồ tây", control_type="Button")
+   |    |    |    | 
+   |    |    |    | Static - 'Thực đơn đồ tây'    (L15, T605, R131, B624)
+   |    |    |    | ['Static44', 'Thực đơn đồ tâyStatic', 'Thực đơn đồ tây2']
+   |    |    |    | child_window(title="Thực đơn đồ tây", control_type="Text")
+   |    |    | 
+   |    |    | Button - ''    (L146, T103, R285, B239)
+   |    |    | ['Nhập tên mặt hàng (F4)Button', 'Button29']
+   |    |    |    | 
+   |    |    |    | Static - 'It'    (L205, T138, R226, B174)
+   |    |    |    | ['Static45', 'ItStatic', 'It', 'ItStatic0', 'ItStatic1', 'It0', 'It1']
+   |    |    |    | child_window(title="It", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Static - 'Item 20k'    (L146, T212, R285, B228)
+   |    |    |    | ['Static46', 'Item 20kStatic2', 'Item 20k2']
+   |    |    |    | child_window(title="Item 20k", control_type="Text")
+   |    |    | 
+   |    |    | Button - ''    (L288, T103, R428, B239)
+   |    |    | ['ItButton', 'Button30', 'Item 20kButton', 'Item 20kButton0', 'Item 20kButton1']
+   |    |    |    | 
+   |    |    |    | Static - 'It'    (L347, T138, R369, B174)
+   |    |    |    | ['Static47', 'ItStatic2', 'It2']
+   |    |    |    | child_window(title="It", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Static - 'Item 10k'    (L288, T212, R428, B228)
+   |    |    |    | ['Static48', 'Item 10kStatic', 'Item 10k']
+   |    |    |    | child_window(title="Item 10k", control_type="Text")
+   |    |    | 
+   |    |    | Button - ''    (L431, T103, R570, B239)
+   |    |    | ['Item 10kButton', 'Button31', 'Thanh toán - Khu vực 1 - 20 = 26,400₫Button', 'Thanh toán - Khu vực 1 - 20 = 26,400₫Button0', 'Thanh toán - Khu vực 1 - 20 = 26,400₫Button1', 'Item 10kButton0', 'Item 10kButton1']
+   |    |    |    | 
+   |    |    |    | Static - 'it'    (L490, T138, R510, B174)
+   |    |    |    | ['Static49', 'it', 'itStatic', 'it0', 'it1', 'itStatic0', 'itStatic1']
+   |    |    |    | child_window(title="it", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Static - 'item test tồn kho'    (L431, T212, R570, B228)
+   |    |    |    | ['Static50', 'item test tồn khoStatic', 'item test tồn kho']
+   |    |    |    | child_window(title="item test tồn kho", control_type="Text")
+   |    |    | 
+   |    |    | Button - ''    (L573, T103, R712, B239)
+   |    |    | ['item test tồn khoButton', 'Button32', 'Thanh toán - Khu vực 1 - 20 = 26,400₫Button2', 'item test tồn khoButton0', 'item test tồn khoButton1']
+   |    |    |    | 
+   |    |    |    | Static - 'ab'    (L625, T138, R660, B174)
+   |    |    |    | ['Static51', 'abStatic', 'ab', 'abStatic0', 'abStatic1', 'ab0', 'ab1']
+   |    |    |    | child_window(title="ab", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Static - 'abc có mod-set'    (L573, T212, R712, B228)
+   |    |    |    | ['Static52', 'abc có mod-setStatic', 'abc có mod-set']
+   |    |    |    | child_window(title="abc có mod-set", control_type="Text")
+   |    |    | 
+   |    |    | Button - ''    (L715, T103, R855, B239)
+   |    |    | ['abc có mod-setButton', 'Button33', 'Khách lẻButton', 'abc có mod-setButton0', 'abc có mod-setButton1']
+   |    |    |    | 
+   |    |    |    | Static - 'it'    (L775, T138, R795, B174)
+   |    |    |    | ['Static53', 'it2', 'itStatic2']
+   |    |    |    | child_window(title="it", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Static - 'item trọng lượng'    (L715, T212, R855, B228)
+   |    |    |    | ['Static54', 'item trọng lượng', 'item trọng lượngStatic']
+   |    |    |    | child_window(title="item trọng lượng", control_type="Text")
+   |    |    | 
+   |    |    | Button - ''    (L858, T103, R997, B239)
+   |    |    | ['Button34', 'item trọng lượngButton', 'Thanh toán - Khu vực 1 - 20 = 26,400₫Button3', 'item trọng lượngButton0', 'item trọng lượngButton1']
+   |    |    |    | 
+   |    |    |    | Static - 'it'    (L917, T138, R937, B174)
+   |    |    |    | ['Static55', 'it3', 'itStatic3']
+   |    |    |    | child_window(title="it", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Static - 'item giá A, B'    (L858, T212, R997, B228)
+   |    |    |    | ['Static56', 'item giá A, B', 'item giá A, BStatic']
+   |    |    |    | child_window(title="item giá A, B", control_type="Text")
+   |    |    | 
+   |    |    | Button - ''    (L146, T242, R285, B378)
+   |    |    | ['Button35', 'Item 20kButton2']
+   |    |    |    | 
+   |    |    |    | Static - 'ab'    (L198, T277, R233, B313)
+   |    |    |    | ['Static57', 'abStatic2', 'ab2']
+   |    |    |    | child_window(title="ab", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Static - 'abc'    (L146, T351, R285, B366)
+   |    |    |    | ['Static58', 'abc', 'abcStatic']
+   |    |    |    | child_window(title="abc", control_type="Text")
+   |    |    | 
+   |    |    | Button - ''    (L288, T242, R428, B378)
+   |    |    | ['abcButton', 'Button36', 'Item 10kButton2', 'abcButton0', 'abcButton1']
+   |    |    |    | 
+   |    |    |    | Static - 'it'    (L348, T277, R368, B313)
+   |    |    |    | ['Static59', 'it4', 'itStatic4']
+   |    |    |    | child_window(title="it", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Static - 'item nhập trọng lượng có mod-set'    (L288, T343, R428, B374)
+   |    |    |    | ['Static60', 'item nhập trọng lượng có mod-set', 'item nhập trọng lượng có mod-setStatic']
+   |    |    |    | child_window(title="item nhập trọng lượng có mod-set", control_type="Text")
+   |    |    | 
+   |    |    | Button - ''    (L431, T242, R570, B378)
+   |    |    | ['item nhập trọng lượng có mod-setButton', 'Button37', 'item test tồn khoButton2', 'item nhập trọng lượng có mod-setButton0', 'item nhập trọng lượng có mod-setButton1']
+   |    |    |    | 
+   |    |    |    | Static - 'item thuộc thực đơn 1'    (L431, T351, R570, B366)
+   |    |    |    | ['Static61', 'item thuộc thực đơn 1', 'item thuộc thực đơn 1Static']
+   |    |    |    | child_window(title="item thuộc thực đơn 1", control_type="Text")
+   |    |    | 
+   |    |    | Button - ''    (L573, T242, R712, B378)
+   |    |    | ['abc có mod-setButton2', 'item thuộc thực đơn 1Button', 'Button38', 'item thuộc thực đơn 1Button0', 'item thuộc thực đơn 1Button1']
+   |    |    |    | 
+   |    |    |    | Static - 'it'    (L633, T277, R653, B313)
+   |    |    |    | ['Static62', 'it5', 'itStatic5']
+   |    |    |    | child_window(title="it", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Static - 'item A'    (L573, T351, R712, B366)
+   |    |    |    | ['Static63', 'item AStatic', 'item A']
+   |    |    |    | child_window(title="item A", control_type="Text")
+   |    |    | 
+   |    |    | Button - ''    (L715, T242, R855, B378)
+   |    |    | ['Button39', 'item trọng lượngButton2', 'item AButton']
+   |    |    |    | 
+   |    |    |    | Static - 'It'    (L774, T277, R796, B313)
+   |    |    |    | ['Static64', 'ItStatic3', 'It3']
+   |    |    |    | child_window(title="It", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Static - 'Item test Jmetter'    (L715, T351, R855, B366)
+   |    |    |    | ['Static65', 'Item test Jmetter', 'Item test JmetterStatic']
+   |    |    |    | child_window(title="Item test Jmetter", control_type="Text")
+   |    |    | 
+   |    |    | Button - ''    (L858, T242, R997, B378)
+   |    |    | ['item giá A, BButton', 'Item test JmetterButton', 'Button40']
+   |    |    |    | 
+   |    |    |    | Static - 'mặ'    (L906, T277, R949, B313)
+   |    |    |    | ['Static66', 'mặ', 'mặStatic', 'mặ0', 'mặ1', 'mặStatic0', 'mặStatic1']
+   |    |    |    | child_window(title="mặ", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Static - 'mặt hàng có mod-set'    (L858, T351, R997, B366)
+   |    |    |    | ['Static67', 'mặt hàng có mod-set', 'mặt hàng có mod-setStatic']
+   |    |    |    | child_window(title="mặt hàng có mod-set", control_type="Text")
+   |    |    | 
+   |    |    | Button - ''    (L146, T381, R285, B516)
+   |    |    | ['abcButton2', 'Button41']
+   |    |    |    | 
+   |    |    |    | Static - 'It'    (L205, T415, R226, B451)
+   |    |    |    | ['Static68', 'ItStatic4', 'It4']
+   |    |    |    | child_window(title="It", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Static - 'Item test VNpay 1đ'    (L146, T489, R285, B505)
+   |    |    |    | ['Static69', 'Item test VNpay 1đ', 'Item test VNpay 1đStatic']
+   |    |    |    | child_window(title="Item test VNpay 1đ", control_type="Text")
+   |    |    | 
+   |    |    | Button - ''    (L288, T381, R428, B516)
+   |    |    | ['item nhập trọng lượng có mod-setButton2', 'Button42', 'Item test VNpay 1đButton', 'Item test VNpay 1đButton0', 'Item test VNpay 1đButton1']
+   |    |    |    | 
+   |    |    |    | Static - 'VN'    (L336, T415, R380, B451)
+   |    |    |    | ['Static70', 'VN', 'VNStatic']
+   |    |    |    | child_window(title="VN", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Static - 'VNpay2 2đ'    (L288, T489, R428, B505)
+   |    |    |    | ['Static71', 'VNpay2 2đStatic', 'VNpay2 2đ']
+   |    |    |    | child_window(title="VNpay2 2đ", control_type="Text")
+   |    |    | 
+   |    |    | Button - ''    (L431, T381, R570, B516)
+   |    |    | ['item thuộc thực đơn 1Button2', 'Button43', 'VNpay2 2đButton', 'VNpay2 2đButton0', 'VNpay2 2đButton1']
+   |    |    |    | 
+   |    |    |    | Static - 'mặ'    (L479, T415, R522, B451)
+   |    |    |    | ['Static72', 'mặ2', 'mặStatic2']
+   |    |    |    | child_window(title="mặ", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Static - 'mặt hàng giá cao'    (L431, T489, R570, B505)
+   |    |    |    | ['Static73', 'mặt hàng giá cao', 'mặt hàng giá caoStatic']
+   |    |    |    | child_window(title="mặt hàng giá cao", control_type="Text")
+   | 
+   | Custom - ''    (L288, T54, R1078, B714)
+   | ['Custom6', 'ItCustom']
+   |    | 
+   |    | Static - 'Thanh toán - Khu vực 1 - 20 = 26,400₫'    (L511, T68, R855, B90)
+   |    | ['Static74', 'Thanh toán - Khu vực 1 - 20 = 26,400₫', 'Thanh toán - Khu vực 1 - 20 = 26,400₫Static']
+   |    | child_window(title="Thanh toán - Khu vực 1 - 20 = 26,400₫", control_type="Text")
+   |    | 
+   |    | Image - ''    (L1030, T71, R1047, B88)
+   |    | ['Thanh toán - Khu vực 1 - 20 = 26,400₫Image', 'Image15', 'Nhập tên mặt hàng (F4)Image2']
+   |    | 
+   |    | Static - 'XÁC NHẬN THANH TOÁN (F1)'    (L291, T657, R1075, B711)
+   |    | ['Static75', 'XÁC NHẬN THANH TOÁN (F1)', 'XÁC NHẬN THANH TOÁN (F1)Static']
+   |    | child_window(title="XÁC NHẬN THANH TOÁN (F1)", control_type="Text")
+   |    | 
+   |    | Image - ''    (L322, T142, R346, B166)
+   |    | ['Image16', 'ItImage']
+   |    | 
+   |    | Static - 'Khách lẻ'    (L360, T143, R686, B165)
+   |    | ['Static76', 'Khách lẻ', 'Khách lẻStatic']
+   |    | child_window(title="Khách lẻ", control_type="Text")
+   |    | 
+   |    | Static - 'Tổng tiền'    (L307, T233, R407, B255)
+   |    | ['Static77', 'Tổng tiềnStatic2', 'Tổng tiền2']
+   |    | child_window(title="Tổng tiền", control_type="Text")
+   |    | 
+   |    | Static - '26,400₫'    (L468, T228, R666, B260)
+   |    | ['Static78', '26,400₫Static3', '26,400₫2']
+   |    | child_window(title="26,400₫", control_type="Text")
+   |    | 
+   |    | Static - 'Khách trả'    (L307, T323, R406, B345)
+   |    | ['Static79', 'Khách trả', 'Khách trảStatic']
+   |    | child_window(title="Khách trả", control_type="Text")
+   |    | 
+   |    | Static - 'Còn thừa'    (L308, T413, R405, B435)
+   |    | ['Static80', 'Còn thừa', 'Còn thừaStatic']
+   |    | child_window(title="Còn thừa", control_type="Text")
+   |    | 
+   |    | Edit - '26,400₫'    (L468, T295, R686, B373)
+   |    | ['Edit2', '26,400₫Edit']
+   |    | child_window(title="26,400₫", auto_id="txtCollected", control_type="Edit")
+   |    | 
+   |    | Static - '0₫'    (L650, T410, R686, B438)
+   |    | ['Static81', '0₫', '0₫Static']
+   |    | child_window(title="0₫", control_type="Text")
+   |    | 
+   |    | Button - ''    (L307, T474, R427, B554)
+   |    | ['Button44', 'Item test VNpay 1đButton2']
+   |    | child_window(auto_id="Btn_PaymentMethod", control_type="Button")
+   |    |    | 
+   |    |    | Image - ''    (L337, T485, R397, B515)
+   |    |    | ['VNImage', 'Image17']
+   |    |    | 
+   |    |    | Static - 'Tiền mặt'    (L331, T520, R403, B543)
+   |    |    | ['Static82', 'Tiền mặt', 'Tiền mặtStatic']
+   |    |    | child_window(title="Tiền mặt", control_type="Text")
+   |    | 
+   |    | Button - ''    (L437, T474, R557, B554)
+   |    | ['Button45', 'VNpay2 2đButton2', 'Tiền mặtButton', 'Tiền mặtButton0', 'Tiền mặtButton1']
+   |    | child_window(auto_id="Btn_PaymentMethod", control_type="Button")
+   |    |    | 
+   |    |    | Image - ''    (L467, T485, R527, B515)
+   |    |    | ['VNpay2 2đImage', 'Image18']
+   |    |    | 
+   |    |    | Static - 'Thẻ ATM'    (L460, T520, R534, B543)
+   |    |    | ['Static83', 'Thẻ ATM', 'Thẻ ATMStatic']
+   |    |    | child_window(title="Thẻ ATM", control_type="Text")
+   |    | 
+   |    | Button - ''    (L567, T474, R687, B554)
+   |    | ['Button46', 'mặt hàng giá caoButton', 'Thẻ ATMButton', 'Thẻ ATMButton0', 'Thẻ ATMButton1']
+   |    | child_window(auto_id="Btn_PaymentMethod", control_type="Button")
+   |    |    | 
+   |    |    | Image - ''    (L597, T485, R657, B515)
+   |    |    | ['mặt hàng giá caoImage', 'Image19']
+   |    |    | 
+   |    |    | Static - 'uuwuw'    (L597, T520, R657, B543)
+   |    |    | ['Static84', 'uuwuw', 'uuwuwStatic']
+   |    |    | child_window(title="uuwuw", control_type="Text")
+   |    | 
+   |    | Button - ''    (L307, T564, R427, B644)
+   |    | ['Button47', 'Tiền mặtButton2']
+   |    | child_window(auto_id="Btn_PaymentMethod", control_type="Button")
+   |    |    | 
+   |    |    | Image - ''    (L337, T575, R397, B605)
+   |    |    | ['Image20', 'Tiền mặtImage']
+   |    |    | 
+   |    |    | Static - 'lala update'    (L321, T610, R413, B633)
+   |    |    | ['Static85', 'lala update', 'lala updateStatic']
+   |    |    | child_window(title="lala update", control_type="Text")
+   |    | 
+   |    | Button - ''    (L437, T564, R557, B644)
+   |    | ['Button48', 'lala updateButton', 'Thẻ ATMButton2']
+   |    | child_window(auto_id="Btn_PaymentMethod", control_type="Button")
+   |    |    | 
+   |    |    | Image - ''    (L467, T575, R527, B605)
+   |    |    | ['Image21', 'Thẻ ATMImage']
+   |    |    | 
+   |    |    | Static - 'Thẻ Visa'    (L462, T610, R532, B633)
+   |    |    | ['Static86', 'Thẻ Visa', 'Thẻ VisaStatic']
+   |    |    | child_window(title="Thẻ Visa", control_type="Text")
+   |    | 
+   |    | Button - ''    (L567, T564, R687, B644)
+   |    | ['uuwuwButton', 'Thẻ VisaButton', 'Button49']
+   |    | child_window(auto_id="Btn_PaymentMethod", control_type="Button")
+   |    |    | 
+   |    |    | Image - ''    (L611, T589, R643, B619)
+   |    |    | ['Image22', 'uuwuwImage']
+   |    | 
+   |    | Button - '26,400₫'    (L699, T114, R813, B194)
+   |    | ['26,400₫Button', 'Button50', '26,400₫3']
+   |    | child_window(title="26,400₫", control_type="Button")
+   |    |    | 
+   |    |    | Static - '26,400₫'    (L723, T143, R789, B165)
+   |    |    | ['Static87', '26,400₫Static4', '26,400₫4']
+   |    |    | child_window(title="26,400₫", control_type="Text")
+   |    | 
+   |    | Button - '27,000₫'    (L823, T114, R937, B194)
+   |    | ['27,000₫Button', 'Button51', '27,000₫', '27,000₫0', '27,000₫1']
+   |    | child_window(title="27,000₫", control_type="Button")
+   |    |    | 
+   |    |    | Static - '27,000₫'    (L847, T143, R913, B165)
+   |    |    | ['Static88', '27,000₫Static', '27,000₫2']
+   |    |    | child_window(title="27,000₫", control_type="Text")
+   |    | 
+   |    | Button - '30,000₫'    (L947, T114, R1061, B194)
+   |    | ['30,000₫', 'Button52', '30,000₫Button', '30,000₫0', '30,000₫1']
+   |    | child_window(title="30,000₫", control_type="Button")
+   |    |    | 
+   |    |    | Static - '30,000₫'    (L971, T143, R1037, B165)
+   |    |    | ['Static89', '30,000₫2', '30,000₫Static']
+   |    |    | child_window(title="30,000₫", control_type="Text")
+   |    | 
+   |    | Button - '40,000₫'    (L699, T204, R813, B284)
+   |    | ['40,000₫', '40,000₫Button', 'Button53', '40,000₫0', '40,000₫1']
+   |    | child_window(title="40,000₫", control_type="Button")
+   |    |    | 
+   |    |    | Static - '40,000₫'    (L723, T233, R789, B255)
+   |    |    | ['Static90', '40,000₫Static', '40,000₫2']
+   |    |    | child_window(title="40,000₫", control_type="Text")
+   |    | 
+   |    | Button - '50,000₫'    (L823, T204, R937, B284)
+   |    | ['50,000₫', 'Button54', '50,000₫Button', '50,000₫0', '50,000₫1']
+   |    | child_window(title="50,000₫", control_type="Button")
+   |    |    | 
+   |    |    | Static - '50,000₫'    (L847, T233, R913, B255)
+   |    |    | ['Static91', '50,000₫Static', '50,000₫2']
+   |    |    | child_window(title="50,000₫", control_type="Text")
+   |    | 
+   |    | Button - '100,000₫'    (L947, T204, R1061, B284)
+   |    | ['100,000₫Button', 'Button55', '100,000₫', '100,000₫0', '100,000₫1']
+   |    | child_window(title="100,000₫", control_type="Button")
+   |    |    | 
+   |    |    | Static - '100,000₫'    (L966, T233, R1042, B255)
+   |    |    | ['Static92', '100,000₫Static', '100,000₫2']
+   |    |    | child_window(title="100,000₫", control_type="Text")
+   |    | 
+   |    | Button - '1'    (L699, T474, R784, B554)
+   |    | ['Button56', '1Button2', '13']
+   |    | child_window(title="1", control_type="Button")
+   |    |    | 
+   |    |    | Static - '1'    (L734, T498, R748, B530)
+   |    |    | ['Static93', '1Static2', '14']
+   |    |    | child_window(title="1", control_type="Text")
+   |    | 
+   |    | Button - '2'    (L792, T474, R876, B554)
+   |    | ['Button57', '23', '2Button2']
+   |    | child_window(title="2", control_type="Button")
+   |    |    | 
+   |    |    | Static - '2'    (L827, T498, R841, B530)
+   |    |    | ['Static94', '24', '2Static2']
+   |    |    | child_window(title="2", control_type="Text")
+   |    | 
+   |    | Button - '3'    (L884, T474, R969, B554)
+   |    | ['3Button2', '33', 'Button58']
+   |    | child_window(title="3", control_type="Button")
+   |    |    | 
+   |    |    | Static - '3'    (L919, T498, R933, B530)
+   |    |    | ['Static95', '3Static2', '34']
+   |    |    | child_window(title="3", control_type="Text")
+   |    | 
+   |    | Button - ''    (L977, T294, R1061, B464)
+   |    | ['mặButton', 'Button59']
+   |    |    | 
+   |    |    | Image - ''    (L1002, T368, R1035, B390)
+   |    |    | ['Image23', 'mặt hàng có mod-setImage']
+   |    | 
+   |    | Button - '4'    (L699, T384, R784, B464)
+   |    | ['43', '4Button2', 'Button60']
+   |    | child_window(title="4", control_type="Button")
+   |    |    | 
+   |    |    | Static - '4'    (L734, T408, R748, B440)
+   |    |    | ['Static96', '44', '4Static2']
+   |    |    | child_window(title="4", control_type="Text")
+   |    | 
+   |    | Button - '5'    (L792, T384, R876, B464)
+   |    | ['5Button2', '53', 'Button61']
+   |    | child_window(title="5", control_type="Button")
+   |    |    | 
+   |    |    | Static - '5'    (L827, T408, R841, B440)
+   |    |    | ['Static97', '54', '5Static2']
+   |    |    | child_window(title="5", control_type="Text")
+   |    | 
+   |    | Button - '6'    (L884, T384, R969, B464)
+   |    | ['63', 'Button62', '6Button2']
+   |    | child_window(title="6", control_type="Button")
+   |    |    | 
+   |    |    | Static - '6'    (L919, T408, R933, B440)
+   |    |    | ['Static98', '64', '6Static2']
+   |    |    | child_window(title="6", control_type="Text")
+   |    | 
+   |    | Button - 'C'    (L977, T474, R1061, B644)
+   |    | ['Button63', 'CButton2', 'C', 'C0', 'C1']
+   |    | child_window(title="C", control_type="Button")
+   |    |    | 
+   |    |    | Static - 'C'    (L1009, T541, R1028, B577)
+   |    |    | ['Static99', 'C2', 'CStatic']
+   |    |    | child_window(title="C", control_type="Text")
+   |    | 
+   |    | Button - '7'    (L699, T294, R784, B374)
+   |    | ['Button64', '7Button2', '73']
+   |    | child_window(title="7", control_type="Button")
+   |    |    | 
+   |    |    | Static - '7'    (L734, T318, R748, B350)
+   |    |    | ['Static100', '7Static2', '74']
+   |    |    | child_window(title="7", control_type="Text")
+   |    | 
+   |    | Button - '8'    (L792, T294, R876, B374)
+   |    | ['8Button2', '83', 'Button65']
+   |    | child_window(title="8", control_type="Button")
+   |    |    | 
+   |    |    | Static - '8'    (L827, T318, R841, B350)
+   |    |    | ['Static101', '84', '8Static2']
+   |    |    | child_window(title="8", control_type="Text")
+   |    | 
+   |    | Button - '9'    (L884, T294, R969, B374)
+   |    | ['93', 'Button66', '9Button2']
+   |    | child_window(title="9", control_type="Button")
+   |    |    | 
+   |    |    | Static - '9'    (L919, T318, R933, B350)
+   |    |    | ['Static102', '94', '9Static2']
+   |    |    | child_window(title="9", control_type="Text")
+   |    | 
+   |    | Button - '0'    (L792, T564, R876, B644)
+   |    | ['0Button3', '04', 'Button67']
+   |    | child_window(title="0", control_type="Button")
+   |    |    | 
+   |    |    | Static - '0'    (L827, T588, R841, B620)
+   |    |    | ['Static103', '0Static3', '05']
+   |    |    | child_window(title="0", control_type="Text")
+   |    | 
+   |    | Button - '.'    (L884, T564, R969, B644)
+   |    | ['.', 'Button68', '.Button', '.0', '.1']
+   |    | child_window(title=".", control_type="Button")
+   |    |    | 
+   |    |    | Static - '.'    (L921, T562, R931, B619)
+   |    |    | ['Static104', '.Static', '.2']
+   |    |    | child_window(title=".", control_type="Text")
+   |    | 
+   |    | Button - '000'    (L699, T564, R784, B644)
+   |    | ['000', '000Button', 'Button69', '0000', '0001']
+   |    | child_window(title="000", control_type="Button")
+   |    |    | 
+   |    |    | Static - '000'    (L720, T588, R762, B620)
+   |    |    | ['Static105', '0002', '000Static']
+   |    |    | child_window(title="000", control_type="Text")
